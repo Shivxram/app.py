@@ -47,9 +47,11 @@ def find_nearest_color(rgb, df, tree):
 def rgb_to_hsl(rgb):
     r, g, b = [x / 255 for x in rgb]
     h, l, s = colorsys.rgb_to_hls(r, g, b)
+    # Return in HSL order
     return h, s, l
 
 def hsl_to_rgb(h, s, l):
+    # Convert back from HSL to RGB via HLS
     r, g, b = colorsys.hls_to_rgb(h, l, s)
     return int(r * 255), int(g * 255), int(b * 255)
 
@@ -232,7 +234,6 @@ def mini_llm_reply(user_prompt: str, current_color, style_hint: str | None):
     chosen_style = style_hint if style_hint else random.choice(fallback_styles)
     base_sentence = random.choice(templates).format(style=chosen_style)
 
-    r, g, b = current_color
     suggestion = f"RGB {current_color}"
 
     extra = f"{base_sentence}\n\nYou can keep iterating with phrases like *more red*, *brighter*, *more muted*, or another hex code. Current color is {suggestion}."
@@ -478,17 +479,17 @@ def main():
             )
     st.sidebar.caption("Hints: try prompts like 'make it pastel green', 'use #FF5733', 'more red', 'make it darker', 'neon blue', 'check contrast', 'generate palette'.")
 
-    # Main header
-    st.title("🤖 ChromoAI — Keyword-Driven Color Chatbot (No API)")
-
-    # Use the active RGB for the current state (may be changed by chat)
+    # --------- CORE STATE & ANALYTICS (always recomputed) ---------
     active_rgb = st.session_state.active_rgb
     active_hex = "#{:02X}{:02X}{:02X}".format(*active_rgb)
     name, dist = find_nearest_color(active_rgb, df, tree)
-    mood = mood_from_rgb(active_rgb)
     harmony = generate_harmony(active_rgb, harmony_mode)
+    mood = mood_from_rgb(active_rgb)
     white_cr = contrast_ratio((255, 255, 255), active_rgb)
     black_cr = contrast_ratio((0, 0, 0), active_rgb)
+
+    # Main header
+    st.title("🤖 ChromoAI — Keyword-Driven Color Chatbot (No API)")
 
     # Hero row
     c1, c2 = st.columns([1, 2])
@@ -503,6 +504,60 @@ def main():
         st.write(f"**Mood:** {mood}")
         st.write(f"Nearest dataset color distance: `{dist:.1f}`")
         st.write(f"Contrast vs white: **{white_cr:.2f}**, vs black: **{black_cr:.2f}**")
+
+    # Harmony preview
+    st.subheader("🎨 Harmony Preview")
+    hcols = st.columns(len(harmony))
+    for col, h in zip(hcols, harmony):
+        col.markdown(
+            f"""
+            <div style="
+                width:80px;
+                height:80px;
+                border-radius:12px;
+                background:rgb{h};
+                box-shadow:0 4px 12px rgba(0,0,0,0.25);
+            "></div>
+            """,
+            unsafe_allow_html=True,
+        )
+        col.caption(f"rgb{h}")
+
+    # Contrast checker
+    st.subheader("🔎 Contrast Checker")
+    cc1, cc2 = st.columns(2)
+
+    cc1.markdown(
+        f"""
+        <div style="
+            background:rgb{active_rgb};
+            color:white;
+            padding:16px;
+            border-radius:10px;
+            font-weight:600;
+            text-align:center;
+        ">
+            White Text (Contrast {white_cr:.2f})
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    cc2.markdown(
+        f"""
+        <div style="
+            background:rgb{active_rgb};
+            color:black;
+            padding:16px;
+            border-radius:10px;
+            font-weight:600;
+            text-align:center;
+        ">
+            Black Text (Contrast {black_cr:.2f})
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
 
     st.markdown("---")
 
@@ -532,20 +587,19 @@ def main():
         # Interpret prompt
         intent, target_rgb, target_name, style_hint = interpret_prompt(user_prompt, df)
 
-        # Update active color if user specified one
+        # Update active color if user specified one or requested adjustment
         if target_rgb is not None:
             st.session_state.active_rgb = target_rgb
         elif intent == "adjust_color":
             adjusted = infer_adjustment(user_prompt, st.session_state.active_rgb)
             st.session_state.active_rgb = adjusted
 
+        # Recompute analytics after updating state
         active_rgb = st.session_state.active_rgb
-
-        # Recompute analytics for the (possibly new) color
         active_hex = "#{:02X}{:02X}{:02X}".format(*active_rgb)
         name, dist = find_nearest_color(active_rgb, df, tree)
-        mood = mood_from_rgb(active_rgb)
         harmony = generate_harmony(active_rgb, harmony_mode)
+        mood = mood_from_rgb(active_rgb)
         white_cr = contrast_ratio((255, 255, 255), active_rgb)
         black_cr = contrast_ratio((0, 0, 0), active_rgb)
 
