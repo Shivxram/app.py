@@ -1,0 +1,9 @@
+
+/* Simple animated styling for ChromoAI */
+.swatch { width: 120px; height: 80px; border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.12); transition: transform 200ms ease, box-shadow 200ms ease; }
+.swatch:hover { transform: translateY(-6px); box-shadow: 0 12px 30px rgba(0,0,0,0.18); }
+.chatbox { background: linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); padding: 8px; border-radius: 8px; }
+.bubble { padding: 12px; border-radius: 12px; margin: 8px 0; max-width: 80%; }
+.bubble.assistant { background: #0f172a; color: #e6eef8; align-self: flex-start; box-shadow: 0 6px 18px rgba(2,6,23,0.5); }
+.bubble.user { background: #e6f0ff; color: #032b5c; align-self: flex-end; margin-left: 20%; }
+#messages { max-height: 300px; overflow-y: auto; }
