@@ -1,4 +1,3 @@
-# app.py
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -9,22 +8,13 @@ import os
 from sklearn.neighbors import KDTree
 from sklearn.cluster import KMeans
 from PIL import Image
-from io import BytesIO
 
-# ---------------------------
-# Configuration / Paths
-# ---------------------------
-# If your dataset isn't in repo root, we fallback to the uploaded zip from chat session.
-ZIP_FALLBACK = "/mnt/data/color set.zip"   # <- local artifact (provided via chat/upload)
+st.set_page_config(page_title="ChromoAI — Color Assistant", layout="wide")
+
+ZIP_FALLBACK = "/mnt/data/color set.zip"
 CSV_NAME = "color_names.csv"
 
-st.set_page_config(page_title="ChromoAI — Color Intelligence", layout="wide")
-
-# ---------------------------
-# Utility functions
-# ---------------------------
 def ensure_dataset():
-    # prefer repo CSV, else try to extract from ZIP_FALLBACK
     if os.path.exists(CSV_NAME):
         return CSV_NAME
     if os.path.exists(ZIP_FALLBACK):
@@ -35,13 +25,9 @@ def ensure_dataset():
                         z.extract(member, '.')
                         return member
         except Exception as e:
-            st.error(f"Failed to extract dataset from zip fallback: {e}")
+            st.error(f"Failed to extract dataset from fallback: {e}")
     st.error("Dataset not found. Place color_names.csv in repo root or upload the zip.")
     return None
-
-def rgb_tuple_from_hex(hexstr):
-    hexstr = hexstr.lstrip('#')
-    return tuple(int(hexstr[i:i+2], 16) for i in (0, 2, 4))
 
 def rgb_to_lab(rgb):
     arr = np.uint8([[list(rgb)]])
@@ -120,164 +106,123 @@ def extract_palette(img_rgb, k=5):
     centers = kmeans.cluster_centers_.astype(int)
     return [tuple(c) for c in centers]
 
-# CVD matrices (representative)
 PROTAN = np.array([[0.567,0.433,0.000],[0.558,0.442,0.000],[0.000,0.242,0.758]])
 DEUTAN = np.array([[0.625,0.375,0.000],[0.700,0.300,0.000],[0.000,0.300,0.700]])
 TRITAN = np.array([[0.950,0.050,0.000],[0.000,0.433,0.567],[0.000,0.475,0.525]])
 
-# ---------------------------
-# Generative Assistant (persona)
-# ---------------------------
 def compose_insight(name, rgb, mood, harmony, white_cr, black_cr, dist):
-    """
-    Compose a multi-paragraph generative-style insight about the color.
-    This is deterministic template-based generation (no external LLM required).
-    """
-    # tone phrases:
-    tonal_map = {
-        "Energetic":"punchy and attention-grabbing",
-        "Fresh":"natural and revitalizing",
-        "Calm":"soothing and stable",
-        "Neutral":"balanced and understated"
-    }
+    tonal_map = {"Energetic":"punchy and attention-grabbing","Fresh":"natural and revitalizing","Calm":"soothing and stable","Neutral":"balanced and understated"}
     mood_phrase = tonal_map.get(mood, mood.lower())
     hexval = "#{:02X}{:02X}{:02X}".format(*rgb)
-    # Build narrative
     paragraphs = []
-    paragraphs.append(f"**Assistant:** You selected **{name}** ({hexval}). This color sits at a perceptual distance of {dist:.1f} from a canonical named sample in our color taxonomy.")
-    paragraphs.append(f"It reads as *{mood.lower()}* — {mood_phrase}. The hue and saturation imply it pairs well with both muted neutrals and richer accents.")
-    # Palette guidance
+    paragraphs.append(f"**Assistant:** You selected **{name}** ({hexval}). Perceptual distance from canonical sample: {dist:.1f}.")
+    paragraphs.append(f"It reads as *{mood.lower()}* — {mood_phrase}. It pairs well with muted neutrals and richer accents.")
     palette_text = ", ".join([f"#{c[0]:02X}{c[1]:02X}{c[2]:02X}" for c in harmony])
-    paragraphs.append(f"I generated a harmony palette: {palette_text}. Consider using the leftmost color as a background and the rightmost as an accent for contrast.")
-    # Accessibility
+    paragraphs.append(f"Generated harmony palette: {palette_text}. Use leftmost as background, rightmost as accent.")
     acc = []
-    if white_cr >= 4.5: acc.append("white text passes AA")
-    else: acc.append("white text fails AA (consider dark text)")
-    if black_cr >= 4.5: acc.append("black text passes AA")
-    else: acc.append("black text fails AA")
-    paragraphs.append(f"Accessibility check: {', '.join(acc)}.")
-    # Actionable recommendations
+    acc.append("white text passes" if white_cr>=4.5 else "white text fails")
+    acc.append("black text passes" if black_cr>=4.5 else "black text fails")
+    paragraphs.append("Accessibility: " + ", ".join(acc) + ".")
     recs = []
     if black_cr > white_cr:
-        recs.append("Use dark/black typography for body copy and reserve white for small badges.")
+        recs.append("Use dark typography for body copy.")
     else:
-        recs.append("Use white typography for high-contrast CTAs; ensure sufficient padding.")
-    recs.append("For hero sections, combine the primary color with desaturated complements to avoid visual fatigue.")
+        recs.append("Use white typography for CTAs with sufficient padding.")
+    recs.append("For hero sections, combine primary with desaturated complements to avoid fatigue.")
     paragraphs.append("Recommendations: " + " ".join(recs))
     return "\n\n".join(paragraphs)
 
-# ---------------------------
-# App layout & logic
-# ---------------------------
 def main():
-    st.header("🎨 ChromoAI — Your Color Assistant")
-    st.caption("Generative insights, designer recommendations, accessibility checks, and color-blind previews.")
+    st.markdown("<style>" + open("static/style.css").read() + "</style>", unsafe_allow_html=True)
+    st.markdown("<script>" + open("static/script.js").read() + "</script>", unsafe_allow_html=True)
+    st.header("🎨 ChromoAI — Generative Color Assistant")
+    st.caption("Animated UI, chat-like insights, recommendations, and accessibility checks.")
 
     csv_path = ensure_dataset()
     if not csv_path:
         st.stop()
 
-    # load dataset
     df = pd.read_csv(csv_path)
     tree = build_kdtree(df)
 
-    # left column: controls
     left, right = st.columns([1,2])
     with left:
         st.markdown("### Pick a color")
-        color_hex = st.color_picker("Choose a swatch", "#1976D2")
+        color_hex = st.color_picker("Choose a color", "#1976D2")
         rgb = tuple(int(color_hex[i:i+2],16) for i in (1,3,5))
         st.write("RGB:", rgb)
         st.markdown("---")
         st.markdown("### Harmony mode")
         mode = st.selectbox("Mode", ["analogous","complementary","triadic","tetradic","split"])
-        st.markdown("### Actions")
-        if st.button("Generate Insight"):
-            generate = True
-        else:
-            generate = False
+        st.markdown("### Assistant")
+        if "messages" not in st.session_state:
+            st.session_state.messages = [{"role":"assistant","content":"Hello — I'm ChromoAI. Pick a color and press 'Talk' to get insights."}]
+        if st.button("Talk"):
+            name, dist = find_nearest_color(rgb, df, tree)
+            harmony = generate_harmony(rgb, mode=mode)
+            mood = mood_from_rgb(rgb)
+            white_cr = contrast_ratio((255,255,255), rgb)
+            black_cr = contrast_ratio((0,0,0), rgb)
+            insight = compose_insight(name, rgb, mood, harmony, white_cr, black_cr, dist)
+            st.session_state.messages.append({"role":"assistant","content":insight})
+        if st.button("Clear Chat"):
+            st.session_state.messages = [{"role":"assistant","content":"Chat cleared. Pick a color and press 'Talk'."}]
+        st.markdown("---")
+        st.markdown("### Upload image for palette extraction")
+        uploaded = st.file_uploader("Upload image", type=["jpg","png","jpeg"], key="u1")
+        if uploaded is not None:
+            pil = Image.open(uploaded).convert("RGB")
+            arr = np.array(pil)
+            palette = extract_palette(arr, k=5)
+            st.session_state.last_palette = palette
 
-    # right column: outputs
     with right:
         name, dist = find_nearest_color(rgb, df, tree)
-        st.subheader(f"Nearest Named Color — {name}")
-        st.write(f"Perceptual distance: {dist:.2f}")
-
-        # Harmony
+        st.subheader(f"{name} — {color_hex}")
+        st.markdown(f"Perceptual distance: {dist:.2f}")
         harmony = generate_harmony(rgb, mode=mode)
         st.markdown("#### Harmony palette")
         cols = st.columns(len(harmony))
         for c,h in zip(cols,harmony):
-            c.markdown(f"<div style='width:120px;height:80px;border-radius:8px;background:rgb{h};'></div>", unsafe_allow_html=True)
+            c.markdown(f"""<div class='swatch' style='background:rgb{h};'></div>""", unsafe_allow_html=True)
             c.caption(f"RGB {h}")
-
-        # Mood + simple badges
-        mood = mood_from_rgb(rgb)
-        st.markdown(f"**Mood:** {mood}")
-
-        # WCAG
+        st.markdown("#### Mood")
+        st.metric("Mood", mood_from_rgb(rgb))
+        st.markdown("#### Accessibility")
         white_cr = contrast_ratio((255,255,255), rgb)
         black_cr = contrast_ratio((0,0,0), rgb)
-        st.markdown("#### Accessibility (WCAG)")
-        st.write(f"White text contrast: {white_cr:.2f}")
-        st.write(f"Black text contrast: {black_cr:.2f}")
-        if white_cr >= 7 or black_cr >= 7:
-            st.success("Excellent contrast (AAA possible)")
-        elif white_cr >= 4.5 or black_cr >= 4.5:
-            st.info("Good contrast (AA possible)")
-        else:
-            st.warning("Contrast issues detected")
-
-        # CVD simulations visual
-        st.markdown("#### Color-blindness Preview")
-        canvas = np.zeros((120,480,3), dtype=np.uint8)
-        canvas[:, :120] = rgb
-        canvas[:, 120:240] = simulate_cvd(canvas[:, :120].copy(), PROTAN)
-        canvas[:, 240:360] = simulate_cvd(canvas[:, :120].copy(), DEUTAN)
-        canvas[:, 360:480] = simulate_cvd(canvas[:, :120].copy(), TRITAN)
-        st.image(canvas, caption=["Original | Protanopia | Deutan | Tritan (strip)"], use_column_width=False)
-
-        # Image palette extraction
-        st.markdown("#### Upload image to extract palette")
-        uploaded = st.file_uploader("Upload an image", type=["jpg","png","jpeg"], key="palette_uploader")
-        if uploaded:
-            pil = Image.open(uploaded).convert("RGB")
-            arr = np.array(pil)
-            st.image(pil, caption="Uploaded")
-            palette = extract_palette(arr, k=5)
-            pcols = st.columns(len(palette))
-            for c,p in zip(pcols,palette):
-                c.markdown(f"<div style='width:120px;height:80px;border-radius:8px;background:rgb{p};'></div>", unsafe_allow_html=True)
+        st.write(f"White contrast: {white_cr:.2f} — Black contrast: {black_cr:.2f}")
+        if uploaded is not None:
+            st.markdown("#### Extracted Palette")
+            pcols = st.columns(len(st.session_state.last_palette))
+            for c,p in zip(pcols,st.session_state.last_palette):
+                c.markdown(f"""<div class='swatch' style='background:rgb{p};'></div>""", unsafe_allow_html=True)
                 c.caption(str(p))
 
-    # Assistant chat / insight box (bottom full width)
-    st.markdown("---")
-    st.markdown("## 🧠 ChromoAI Insight")
-    if generate:
-        insight = compose_insight(name, rgb, mood, harmony, white_cr, black_cr, dist)
-        st.markdown(insight, unsafe_allow_html=True)
-    else:
-        st.info("Click **Generate Insight** to see a generative explanation and recommendations for your selected color.")
+    st.markdown("""
+    <div class="chatbox">
+    <div id="messages"></div>
+    </div>
+    """, unsafe_allow_html=True)
 
-    # Quick exports
-    st.markdown("---")
-    st.markdown("### Quick exports")
-    col1, col2 = st.columns(2)
-    with col1:
-        if st.button("Export harmony as CSV"):
-            rows = [{"r":c[0],"g":c[1],"b":c[2],"hex":"#{:02X}{:02X}{:02X}".format(*c)} for c in harmony]
-            csv_bytes = pd.DataFrame(rows).to_csv(index=False).encode('utf-8')
-            st.download_button("Download CSV", data=csv_bytes, file_name="harmony.csv", mime="text/csv")
-    with col2:
-        if st.button("Copy suggestion to clipboard (browser)"):
-            # Streamlit can't write to user clipboard server-side; instead show the text to copy
-            suggestion = compose_insight(name, rgb, mood, harmony, white_cr, black_cr, dist)
-            st.code(suggestion)
+    for m in st.session_state.messages:
+        role = m['role']
+        content = m['content']
+        if role == 'assistant':
+            st.markdown(f"<div class='bubble assistant'>{content.replace('\n','<br>')}</div>", unsafe_allow_html=True)
+        else:
+            st.markdown(f"<div class='bubble user'>{content.replace('\n','<br>')}</div>", unsafe_allow_html=True)
 
-    # Footer
-    st.markdown("---")
-    st.caption("ChromoAI — generative color assistant • analytics-ready • exportable")
+    st.markdown("""
+    <details>
+    <summary><strong>Recommendations</strong></summary>
+    <ul>
+      <li>Use dark text when contrast_ratio &gt; 4.5 vs black.</li>
+      <li>Reserve white text for small badges when white contrast &gt; 4.5.</li>
+      <li>For CTAs use the palette's accent color with +10% saturation.</li>
+    </ul>
+    </details>
+    """, unsafe_allow_html=True)
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
-
