@@ -1,115 +1,110 @@
-import streamlit as st
 import numpy as np
 import pandas as pd
-from PIL import Image
-import os
+import cv2
 
-from color_engine import (
-    load_color_dataset, find_nearest_color, generate_harmony,
-    mood_from_rgb, contrast_ratio, simulate_all_cvd
-)
+def rgb_to_lab(rgb):
+    arr = np.uint8([[list(rgb)]])
+    lab = cv2.cvtColor(arr, cv2.COLOR_RGB2LAB)[0,0]
+    return tuple(int(v) for v in lab)
 
-from nlp_engine import interpret_prompt
-from chat_engine import build_text_reply
+def load_color_dataset():
+    # DIRECT FILE — must be in repo root
+    df = pd.read_csv("color_names.csv")
 
-st.set_page_config(page_title="ChromoAI — Color Chat", layout="wide")
+    df["rgb"] = df.apply(lambda x: (x["Red (8 bit)"], x["Green (8 bit)"], x["Blue (8 bit)"]), axis=1)
+    df["lab"] = df["rgb"].apply(rgb_to_lab)
 
-def main():
-    df, tree = load_color_dataset()
+    from sklearn.neighbors import KDTree
+    pts = np.array(df["lab"].tolist())
+    tree = KDTree(pts)
 
-    st.sidebar.title("🎛 ChromoAI Controls")
-    base_hex = st.sidebar.color_picker("Base Color", "#1976D2")
-    sidebar_rgb = tuple(int(base_hex[i:i+2], 16) for i in (1,3,5))
+    return df, tree
 
-    harmony_mode = st.sidebar.selectbox(
-        "Harmony mode",
-        ["analogous","complementary","triadic","tetradic","split"]
+
+def find_nearest_color(rgb, df, tree):
+    lab = np.array(rgb_to_lab(rgb)).reshape(1,-1)
+    dist, idx = tree.query(lab, k=1)
+    name = df.iloc[int(idx[0][0])]["Name"]
+    return name, float(dist[0][0])
+
+import colorsys
+
+def rgb_to_hsl(rgb):
+    r,g,b = [x/255 for x in rgb]
+    h,l,s = colorsys.hls_to_rgb(r,g,b)
+    return h,s,l
+
+def generate_harmony(rgb, mode, spread=30):
+    import colorsys
+    r,g,b = [x/255 for x in rgb]
+    h,l,s = colorsys.rgb_to_hls(r,g,b)
+
+    def shift(h, deg): return (h + deg/360) % 1.0
+    def hsl_to_rgb(h,l,s):
+        r,g,b = colorsys.hls_to_rgb(h,l,s)
+        return (int(r*255),int(g*255),int(b*255))
+
+    offsets = {
+        "analogous":[-spread,0,spread],
+        "complementary":[0,180],
+        "triadic":[0,120,-120],
+        "tetradic":[0,90,180,270],
+        "split":[0,150,-150],
+    }.get(mode,[0])
+
+    return [hsl_to_rgb(shift(h,d), l, s) for d in offsets]
+
+def mood_from_rgb(rgb):
+    r,g,b = [x/255 for x in rgb]
+    h,s,v = colorsys.rgb_to_hsv(r,g,b)
+    h_deg = h*360
+
+    if s<0.08 and v>0.85: return "Minimal"
+    if v<0.2: return "Moody"
+    if s>0.7 and h_deg<60: return "Energetic"
+    if s>0.6 and 60<h_deg<150: return "Fresh"
+    if s>0.5 and 150<h_deg<260: return "Calm"
+    if s>0.6 and 260<h_deg<330: return "Playful"
+    if s<0.35 and 0.25<v<0.8: return "Elegant"
+    if s<0.25 and v>0.8: return "Soft"
+    return "Balanced"
+
+
+def srgb_to_linear(c):
+    c = c/255
+    return c/12.92 if c<=0.04045 else ((c+0.055)/1.055)**2.4
+
+def luminance(rgb):
+    r,g,b = rgb
+    return (
+        0.2126*srgb_to_linear(r)
+        + 0.7152*srgb_to_linear(g)
+        + 0.0722*srgb_to_linear(b)
     )
 
-    uploaded_file = st.sidebar.file_uploader("Upload image", type=["jpg","png"])
-    if uploaded_file:
-        img = Image.open(uploaded_file).convert("RGB")
-        arr = np.array(img)
-        st.sidebar.image(img, caption="Uploaded Image")
+def contrast_ratio(fg,bg):
+    L1, L2 = sorted([luminance(fg), luminance(bg)], reverse=True)
+    return (L1+0.05)/(L2+0.05)
 
-    # --- Chat UI ---
-    st.title("🤖 ChromoAI — AI-like Color Assistant (No API)")
+PROTAN = np.array([[0.567,0.433,0],[0.558,0.442,0],[0,0.242,0.758]])
+DEUTAN = np.array([[0.625,0.375,0],[0.700,0.300,0],[0,0.300,0.700]])
+TRITAN = np.array([[0.95,0.05,0],[0,0.433,0.567],[0,0.475,0.525]])
 
-    if "active_rgb" not in st.session_state:
-        st.session_state.active_rgb = sidebar_rgb
+def simulate(matrix, rgb):
+    base = np.zeros((80,80,3), dtype=np.uint8)
+    base[:] = rgb
 
-    active_rgb = st.session_state.active_rgb
-    active_hex = "#{:02X}{:02X}{:02X}".format(*active_rgb)
-    name, dist = find_nearest_color(active_rgb, df, tree)
-    mood = mood_from_rgb(active_rgb)
-    harmony = generate_harmony(active_rgb, harmony_mode)
-    wcag_white = contrast_ratio((255,255,255), active_rgb)
-    wcag_black = contrast_ratio((0,0,0), active_rgb)
+    arr = base.astype(np.float32)/255
+    flat = arr.reshape(-1,3)
+    sim = flat @ matrix.T
+    sim = np.clip(sim, 0,1)
 
-    # Header card
-    st.markdown(f"""
-        <div style='
-            background:rgb{active_rgb};
-            width:140px;height:140px;border-radius:16px;
-            box-shadow:0 4px 20px rgba(0,0,0,0.3);
-        '></div>
-    """, unsafe_allow_html=True)
+    return (sim.reshape(80,80,3)*255).astype(np.uint8)
 
-    st.subheader(f"{name} — {active_hex}")
-
-    # --- Chat History ---
-    if "chat" not in st.session_state:
-        st.session_state.chat = [{
-            "role": "assistant",
-            "content": "Hey, I'm ChromoAI. Ask me: *make it pastel green*, *use #FFAA33*, *generate palette*, *check contrast* etc."
-        }]
-
-    for msg in st.session_state.chat:
-        with st.chat_message(msg["role"]):
-            st.markdown(msg["content"])
-
-    user_msg = st.chat_input("Tell ChromoAI something…")
-
-    if user_msg:
-        st.session_state.chat.append({"role":"user","content":user_msg})
-        with st.chat_message("user"):
-            st.markdown(user_msg)
-
-        # --- Interpret text ---
-        intent, target_rgb, target_name, style_hint = interpret_prompt(user_msg, df)
-
-        # Change active color
-        if target_rgb:
-            st.session_state.active_rgb = target_rgb
-            active_rgb = target_rgb
-
-        # Recompute everything
-        active_hex = "#{:02X}{:02X}{:02X}".format(*active_rgb)
-        name, dist = find_nearest_color(active_rgb, df, tree)
-        mood = mood_from_rgb(active_rgb)
-        harmony = generate_harmony(active_rgb, harmony_mode)
-        wcag_white = contrast_ratio((255,255,255), active_rgb)
-        wcag_black = contrast_ratio((0,0,0), active_rgb)
-
-        # --- Build AI-like reply ---
-        reply = build_text_reply(
-            intent, user_msg, name, active_hex, active_rgb, 
-            mood, harmony, wcag_white, wcag_black, style_hint
-        )
-
-        st.session_state.chat.append({"role":"assistant","content":reply})
-        with st.chat_message("assistant"):
-            st.markdown(reply)
-
-    # --- Color Blindness Simulation ---
-    st.markdown("---")
-    st.subheader("👁 Color-Blindness Simulation")
-
-    sim_dict = simulate_all_cvd(active_rgb)
-
-    cols = st.columns(4)
-    for idx, (label, img) in enumerate(sim_dict.items()):
-        cols[idx].image(img, caption=label)
-
-if __name__ == "__main__":
-    main()
+def simulate_all_cvd(rgb):
+    return {
+        "Original": simulate(np.eye(3), rgb),
+        "Protanopia": simulate(PROTAN, rgb),
+        "Deuteranopia": simulate(DEUTAN, rgb),
+        "Tritanopia": simulate(TRITAN, rgb),
+    }
