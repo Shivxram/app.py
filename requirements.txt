@@ -1,9 +1,8 @@
 streamlit
 numpy
 pandas
-opencv-python-headless
 scikit-learn
+opencv-python-headless
 pillow
-
 
 
