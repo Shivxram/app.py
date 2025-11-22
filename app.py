@@ -160,6 +160,85 @@ def detect_style(prompt: str):
     return None
 
 # -----------------------------------------------------
+# Mini-LLM style adjustment engine
+# -----------------------------------------------------
+def infer_adjustment(prompt: str, rgb):
+    """
+    Understand phrases like:
+    - 'make it more red'
+    - 'slightly brighter'
+    - 'darker blue'
+    - 'less saturated', 'muted', 'neon', etc.
+    """
+    text = prompt.lower()
+    r, g, b = rgb
+
+    # Channel nudges
+    if "more red" in text:
+        r = min(255, r + 40)
+    if "more blue" in text:
+        b = min(255, b + 40)
+    if "more green" in text:
+        g = min(255, g + 40)
+
+    if "less red" in text:
+        r = max(0, r - 40)
+    if "less blue" in text:
+        b = max(0, b - 40)
+    if "less green" in text:
+        g = max(0, g - 40)
+
+    # Brightness
+    if any(word in text for word in ["brighter", "lighter", "lighten"]):
+        r = min(255, r + 25)
+        g = min(255, g + 25)
+        b = min(255, b + 25)
+    if any(word in text for word in ["darker", "darken"]):
+        r = max(0, r - 25)
+        g = max(0, g - 25)
+        b = max(0, b - 25)
+
+    # Saturation / style
+    if any(word in text for word in ["neon", "vibrant", "more saturated", "punchy"]):
+        h, s, l = rgb_to_hsl(rgb)
+        s = min(1.0, s + 0.25)
+        return hsl_to_rgb(h, s, l)
+
+    if any(word in text for word in ["muted", "desaturate", "less saturated", "dull"]):
+        h, s, l = rgb_to_hsl(rgb)
+        s = max(0.0, s - 0.25)
+        return hsl_to_rgb(h, s, l)
+
+    return (int(r), int(g), int(b))
+
+def mini_llm_reply(user_prompt: str, current_color, style_hint: str | None):
+    """
+    Adds a little fake 'reasoning' flavor without any external LLM.
+    """
+    import random
+
+    templates = [
+        "Reading your prompt, this feels like a **{style}** adjustment request.",
+        "Interpreting your message as a push toward a more **{style}** color profile.",
+        "From your wording, I'm nudging the color into a **{style}** direction.",
+        "Your description hints at a **{style}** mood, so I shifted the tone slightly.",
+    ]
+
+    fallback_styles = [
+        "softer", "bolder", "deeper", "cleaner",
+        "warmer", "cooler", "more playful", "more serious"
+    ]
+
+    chosen_style = style_hint if style_hint else random.choice(fallback_styles)
+    base_sentence = random.choice(templates).format(style=chosen_style)
+
+    r, g, b = current_color
+    suggestion = f"RGB {current_color}"
+
+    extra = f"{base_sentence}\n\nYou can keep iterating with phrases like *more red*, *brighter*, *more muted*, or another hex code. Current color is {suggestion}."
+    return extra
+
+# -----------------------------------------------------
 # Prompt parsing (offline NLP-ish)
 # -----------------------------------------------------
 BASIC_COLORS = {
@@ -227,7 +306,7 @@ def detect_intent(prompt: str):
 def interpret_prompt(prompt: str, df: pd.DataFrame):
     """
     Returns (intent, target_rgb, target_name, style_hint)
-    Everything is rule-based; no LLM used.
+    Now supports 'adjust_color' for relative changes.
     """
     intent = detect_intent(prompt)
     style = detect_style(prompt)
@@ -247,7 +326,16 @@ def interpret_prompt(prompt: str, df: pd.DataFrame):
     if rgb_name:
         return "change_color", rgb_name, cname, style
 
-    # No explicit color, but action words
+    # Language hints for relative adjustments
+    adjustment_words = [
+        "more red", "more blue", "more green", "less red", "less blue", "less green",
+        "brighter", "lighter", "lighten", "darker", "darken",
+        "more saturated", "less saturated", "muted", "neon", "vibrant", "punchy"
+    ]
+    if any(w in prompt.lower() for w in adjustment_words):
+        return "adjust_color", None, None, style
+
+    # No explicit color, just generic chat / commands
     return intent, None, None, style
 
 # -----------------------------------------------------
@@ -298,10 +386,14 @@ def build_text_reply(
     )
 
     lines = []
-    lines.append(f"You're currently on **{base_name}** `{base_hex}`.")
+    if intent == "adjust_color":
+        lines.append("I treated your message as a **subtle adjustment** to the existing color rather than a full switch.")
+    else:
+        lines.append(f"You're currently on **{base_name}** `{base_hex}`.")
+
     lines.append(f"Visually this reads as **{mood}** — {mood_text}")
 
-    if intent in ["change_color", "chat", "explain"]:
+    if intent in ["change_color", "chat", "explain", "adjust_color"]:
         lines.append(
             f"I built a {len(harmony)}-color harmony around it: `{harmony_hex}` "
             f"which you can use as background / accent / border roles."
@@ -337,6 +429,10 @@ def build_text_reply(
             "Right now I'm only analyzing one active color at a time. To compare two, "
             "give me two hex codes like `#FF5733 vs #3498DB` in your next message."
         )
+
+    # Mini-LLM flavored follow-up
+    if intent in ["adjust_color", "chat", "change_color"]:
+        lines.append(mini_llm_reply(user_prompt, active_rgb, style_hint))
 
     lines.append(
         f"_Prompt I responded to:_ “{user_prompt}”"
@@ -380,7 +476,7 @@ def main():
                 f"<div style='width:60px;height:30px;border-radius:6px;background:rgb{p};margin-bottom:4px;'></div>",
                 unsafe_allow_html=True,
             )
-    st.sidebar.caption("Hints: try prompts like 'make it pastel green', 'use #FF5733', 'check contrast', 'generate palette'.")
+    st.sidebar.caption("Hints: try prompts like 'make it pastel green', 'use #FF5733', 'more red', 'make it darker', 'neon blue', 'check contrast', 'generate palette'.")
 
     # Main header
     st.title("🤖 ChromoAI — Keyword-Driven Color Chatbot (No API)")
@@ -414,10 +510,10 @@ def main():
     if "chat" not in st.session_state:
         intro = (
             "I'm ChromoAI — I don't use any external LLMs, but I understand color names, hex codes, "
-            "rgb(), style words like *pastel / dark / neon*, and basic commands like "
-            "*change, generate palette, check contrast, explain*.\n\n"
-            "Start by saying something like: `make it pastel green`, `use #FF5733 and create a palette`, "
-            "or `check accessibility for this color`."
+            "rgb(), style words like *pastel / dark / neon*, and commands like "
+            "*change, make it darker, more red, generate palette, check contrast, explain*.\n\n"
+            "Try things like: `make it pastel green`, `use #FF5733`, `more saturated blue`, "
+            "`make it darker`, or `check accessibility for this color`."
         )
         st.session_state.chat = [{"role": "assistant", "content": intro}]
 
@@ -439,9 +535,11 @@ def main():
         # Update active color if user specified one
         if target_rgb is not None:
             st.session_state.active_rgb = target_rgb
-            active_rgb = target_rgb
-        else:
-            active_rgb = st.session_state.active_rgb
+        elif intent == "adjust_color":
+            adjusted = infer_adjustment(user_prompt, st.session_state.active_rgb)
+            st.session_state.active_rgb = adjusted
+
+        active_rgb = st.session_state.active_rgb
 
         # Recompute analytics for the (possibly new) color
         active_hex = "#{:02X}{:02X}{:02X}".format(*active_rgb)
