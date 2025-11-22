@@ -1,6 +1,9 @@
 import numpy as np
 import pandas as pd
 import cv2
+import streamlit as st
+
+st.write("App started loading…")
 
 def rgb_to_lab(rgb):
     arr = np.uint8([[list(rgb)]])
