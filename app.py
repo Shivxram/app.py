@@ -5,11 +5,7 @@ import streamlit as st
 import os
 import zipfile
 
-st.write("App started loading…")
 
-# ---------------------------
-# Dataset Loader (Fully Safe)
-# ---------------------------
 
 def load_color_dataset():
 
