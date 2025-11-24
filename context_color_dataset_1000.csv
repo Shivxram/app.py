@@ -1,0 +1,1001 @@
+context,object_category,emotion,hex,r,g,b,saturation,brightness,mood_score
+foggy mountain trail,underground,excited,#D0143F,208,20,63,0.39,0.8,0.5
+mossy cave,artificial-light,intense,#9E2849,158,40,73,0.87,0.11,0.49
+neon arcade room,concrete,intense,#42C1AA,66,193,170,0.32,0.57,0.82
+enchanted garden,cyber,intense,#E2DB36,226,219,54,0.43,0.74,0.69
+sunrise beach,coast,serene,#D811A2,216,17,162,0.33,0.37,0.94
+quiet meadow,artificial-light,dark,#173227,23,50,39,0.75,0.24,0.64
+ancient temple,coast,energetic,#DBBB2B,219,187,43,0.12,0.73,0.53
+quiet meadow,cave,warm,#40829B,64,130,155,0.7,0.24,0.95
+desert highway,market,dark,#A5BCF4,165,188,244,0.88,0.58,0.53
+old library,sand,playful,#D492C3,212,146,195,0.41,0.93,0.81
+crystal cavern,urban,excited,#7AB95A,122,185,90,0.86,0.96,0.96
+desert highway,garden,energetic,#069DF1,6,157,241,0.2,0.82,0.46
+sunrise beach,concrete,peaceful,#FD30D9,253,48,217,0.39,0.35,0.52
+abandoned railway,underground,intense,#D1B653,209,182,83,0.6,0.56,0.9
+quiet meadow,underground,calm,#DBBBB7,219,187,183,0.3,0.34,0.67
+futuristic lab,wood,serene,#EF3B7D,239,59,125,0.52,0.48,0.73
+quiet meadow,market,excited,#2D966F,45,150,111,0.21,0.54,0.38
+sunrise beach,crystal,excited,#147D8F,20,125,143,0.78,0.81,0.53
+quiet meadow,lab,focused,#581EE4,88,30,228,0.43,0.85,0.53
+mossy cave,underground,mysterious,#2D6398,45,99,152,0.63,0.63,0.65
+dilapidated warehouse,garden,melancholic,#35CA35,53,202,53,0.83,0.56,0.59
+neon arcade room,urban,playful,#EA93D1,234,147,209,0.77,0.48,0.42
+rainy night market,fog/mist,romantic,#64E994,100,233,148,0.26,0.75,0.82
+abandoned railway,artificial-light,peaceful,#3BED2D,59,237,45,0.57,0.58,0.86
+abandoned railway,metal/rust,focused,#D2C0BE,210,192,190,0.76,0.22,0.36
+abandoned railway,grassland,mysterious,#F3ECAA,243,236,170,0.27,0.96,0.7
+desert highway,wood,warm,#0F6632,15,102,50,0.58,0.3,0.94
+desert highway,cyber,serene,#D369CF,211,105,207,0.24,0.27,0.97
+foggy mountain trail,metal/rust,focused,#0BA6FE,11,166,254,0.9,0.87,0.52
+mossy cave,crystal,excited,#EA6F2D,234,111,45,0.85,0.31,0.59
+crystal cavern,sand,dark,#015B3A,1,91,58,0.92,0.41,0.51
+futuristic lab,sand,serene,#EEABFE,238,171,254,0.69,0.64,0.91
+urban rooftop,urban,warm,#5E03B4,94,3,180,0.28,0.84,0.5
+enchanted garden,metal/rust,energetic,#24FB44,36,251,68,0.18,0.6,0.95
+enchanted garden,stone,energetic,#D13CD9,209,60,217,0.34,0.99,0.39
+rainy night market,lab,dark,#52AF05,82,175,5,0.45,0.81,0.59
+mossy cave,crystal,peaceful,#9D225E,157,34,94,0.58,0.25,0.68
+dilapidated warehouse,artificial-light,dark,#03C6B4,3,198,180,0.79,0.96,0.94
+mossy cave,nature,melancholic,#64B584,100,181,132,0.61,0.62,0.67
+quiet meadow,wood,intense,#6ADA3A,106,218,58,0.45,0.57,0.72
+cyberpunk alley,cyber,intense,#B42417,180,36,23,0.66,0.16,0.68
+enchanted garden,stone,serene,#C13405,193,52,5,0.26,0.97,0.73
+crystal cavern,stone,focused,#A36482,163,100,130,0.63,0.15,0.88
+futuristic lab,fog/mist,intense,#083D58,8,61,88,0.77,0.5,0.85
+foggy mountain trail,rain,nostalgic,#DF82ED,223,130,237,0.78,0.55,0.46
+abandoned railway,grassland,serene,#07FD2A,7,253,42,0.45,0.88,0.7
+neon arcade room,coast,dark,#C6B0F2,198,176,242,0.3,0.95,0.33
+urban rooftop,artificial-light,dark,#EDD2C6,237,210,198,0.59,0.22,0.86
+old library,lab,lonely,#D6E6EA,214,230,234,0.25,0.6,0.5
+futuristic lab,nature,mysterious,#3A949B,58,148,155,0.86,0.76,0.7
+old library,lab,warm,#950050,149,0,80,0.92,0.9,0.76
+desert highway,metal/rust,intense,#D3DECF,211,222,207,0.66,0.15,0.94
+crystal cavern,underground,lonely,#D126EF,209,38,239,0.98,0.11,0.56
+abandoned railway,metal/rust,mysterious,#460ADD,70,10,221,0.64,0.74,0.52
+stormy coastline,artificial-light,serene,#878F1B,135,143,27,0.77,0.52,0.36
+neon arcade room,underground,warm,#521F7C,82,31,124,0.78,0.93,0.73
+stormy coastline,fog/mist,melancholic,#9FD554,159,213,84,0.41,0.45,0.77
+old library,stone,romantic,#847DA5,132,125,165,0.59,0.49,0.71
+abandoned railway,underground,excited,#CB5894,203,88,148,0.2,0.72,0.36
+enchanted garden,rain,peaceful,#B87C1E,184,124,30,0.93,0.88,0.78
+sunrise beach,garden,energetic,#8AD90F,138,217,15,0.13,0.86,0.8
+cyberpunk alley,fog/mist,energetic,#B10A74,177,10,116,0.23,0.92,0.88
+sunrise beach,fog/mist,nostalgic,#00CD15,0,205,21,0.24,0.96,0.71
+rainy night market,crystal,lonely,#05F4D4,5,244,212,0.29,0.88,0.5
+dilapidated warehouse,grassland,focused,#3FF37F,63,243,127,0.64,0.35,0.89
+urban rooftop,underground,serene,#6ACDAE,106,205,174,0.81,0.87,0.58
+enchanted garden,coast,serene,#8AD55A,138,213,90,0.84,0.9,0.31
+cyberpunk alley,coast,warm,#D58973,213,137,115,0.97,0.98,0.74
+enchanted garden,concrete,excited,#FF7216,255,114,22,0.55,0.77,0.93
+foggy mountain trail,sand,mysterious,#6A79B2,106,121,178,0.51,0.41,0.4
+stormy coastline,temple,calm,#D3736C,211,115,108,0.85,0.79,0.93
+old library,crystal,happy,#87CAAB,135,202,171,0.93,0.84,0.94
+old library,temple,melancholic,#2FC8C3,47,200,195,0.16,0.55,0.34
+forest shrine,coast,melancholic,#4CC781,76,199,129,0.31,0.56,0.4
+enchanted garden,underground,intense,#4F1706,79,23,6,0.61,0.23,0.75
+crystal cavern,lab,warm,#FF0A9B,255,10,155,0.14,0.36,0.38
+dilapidated warehouse,stone,calm,#F61B74,246,27,116,0.14,1.0,0.62
+mossy cave,cyber,mysterious,#F2FFF9,242,255,249,0.18,0.88,0.76
+crystal cavern,metal/rust,energetic,#43D43B,67,212,59,0.42,0.11,0.7
+foggy mountain trail,market,peaceful,#BED799,190,215,153,0.55,0.98,0.48
+crystal cavern,coast,peaceful,#647594,100,117,148,0.47,0.31,0.37
+foggy mountain trail,wood,playful,#BFD725,191,215,37,0.76,0.4,0.64
+enchanted garden,grassland,happy,#BD0B2C,189,11,44,0.44,0.64,0.73
+rainy night market,concrete,playful,#28E1B5,40,225,181,0.9,0.87,0.47
+lantern-lit street,crystal,mysterious,#074919,7,73,25,0.21,0.99,0.67
+forest shrine,nature,serene,#8DDDC8,141,221,200,0.28,1.0,0.42
+neon arcade room,stone,warm,#B902AC,185,2,172,0.87,0.22,0.99
+mossy cave,fog/mist,melancholic,#DE3AF8,222,58,248,0.94,0.19,0.56
+enchanted garden,crystal,happy,#8B09FC,139,9,252,0.54,0.45,0.93
+crystal cavern,sand,energetic,#49CE10,73,206,16,0.96,0.1,0.8
+crystal cavern,concrete,peaceful,#51B212,81,178,18,0.79,0.22,0.42
+ancient temple,cave,mysterious,#4AD077,74,208,119,0.59,0.75,0.35
+dilapidated warehouse,lab,energetic,#4A2B17,74,43,23,0.95,0.16,0.58
+dilapidated warehouse,grassland,focused,#CA78DF,202,120,223,0.76,0.72,0.78
+sunrise beach,sand,happy,#1D4C71,29,76,113,0.55,0.48,0.73
+dilapidated warehouse,cyber,energetic,#6269E5,98,105,229,0.82,0.91,0.67
+ancient temple,urban,playful,#7DF8A2,125,248,162,0.18,0.15,0.58
+quiet meadow,rain,serene,#A49C68,164,156,104,0.53,0.25,0.74
+futuristic lab,garden,nostalgic,#2628CD,38,40,205,0.66,0.3,0.57
+mossy cave,sand,playful,#F9FDBF,249,253,191,0.26,0.45,0.98
+stormy coastline,temple,nostalgic,#D626C1,214,38,193,0.64,0.29,0.88
+desert highway,garden,serene,#A323AE,163,35,174,0.16,0.16,0.55
+underground bunker,lab,energetic,#7C9466,124,148,102,0.77,0.43,0.57
+mossy cave,nature,melancholic,#669D0F,102,157,15,0.34,0.45,0.59
+enchanted garden,underground,energetic,#D6A94A,214,169,74,0.15,0.36,0.91
+forest shrine,lab,mysterious,#F7437E,247,67,126,0.63,0.17,0.4
+futuristic lab,market,lonely,#EB3613,235,54,19,0.49,0.89,0.41
+urban rooftop,rain,melancholic,#B9570A,185,87,10,0.86,0.77,0.42
+lantern-lit street,wood,mysterious,#6F3918,111,57,24,0.27,0.82,0.52
+enchanted garden,underground,excited,#85582F,133,88,47,0.19,0.27,0.49
+rainy night market,sand,intense,#3C7CB3,60,124,179,0.77,1.0,0.81
+desert highway,cyber,intense,#3A9C9F,58,156,159,0.7,0.51,0.75
+sunrise beach,artificial-light,intense,#E85262,232,82,98,0.38,0.44,0.69
+cyberpunk alley,stone,excited,#824A36,130,74,54,0.77,0.83,0.96
+dilapidated warehouse,concrete,intense,#E6C940,230,201,64,0.26,0.66,0.41
+forest shrine,market,nostalgic,#F8E982,248,233,130,0.92,0.48,0.35
+ancient temple,sand,intense,#982EDC,152,46,220,0.76,0.11,0.5
+foggy mountain trail,artificial-light,happy,#4D4E67,77,78,103,0.51,0.24,0.87
+stormy coastline,underground,melancholic,#D4A3A5,212,163,165,0.34,0.35,0.53
+dilapidated warehouse,market,calm,#CC3EC8,204,62,200,0.15,0.25,0.86
+sunrise beach,cave,intense,#37D6C6,55,214,198,0.99,0.12,0.68
+dilapidated warehouse,rain,playful,#A64918,166,73,24,0.94,0.24,1.0
+foggy mountain trail,garden,lonely,#3C36BF,60,54,191,0.71,0.85,0.96
+cyberpunk alley,cave,intense,#51002C,81,0,44,0.36,0.37,0.86
+enchanted garden,market,calm,#270240,39,2,64,0.25,0.75,0.88
+desert highway,lab,nostalgic,#08BD6B,8,189,107,0.41,0.96,0.52
+sunrise beach,fog/mist,focused,#E6DDBA,230,221,186,0.1,0.13,0.42
+stormy coastline,wood,calm,#5B7139,91,113,57,0.9,0.73,0.77
+cyberpunk alley,stone,lonely,#A22F4B,162,47,75,0.54,0.83,0.96
+neon arcade room,concrete,focused,#D91E19,217,30,25,0.67,0.73,0.49
+urban rooftop,metal/rust,warm,#8F4852,143,72,82,0.43,0.92,0.68
+abandoned railway,cave,mysterious,#ADC352,173,195,82,0.26,0.29,0.85
+stormy coastline,lab,peaceful,#A414EF,164,20,239,0.39,0.19,0.66
+sunrise beach,nature,peaceful,#2ABC22,42,188,34,0.86,0.44,0.76
+underground bunker,fog/mist,intense,#B6D653,182,214,83,0.31,0.56,0.68
+old library,concrete,warm,#E9B262,233,178,98,0.31,0.4,0.36
+crystal cavern,coast,melancholic,#0BEE15,11,238,21,0.15,0.6,0.35
+forest shrine,wood,lonely,#0C1FCB,12,31,203,0.61,0.88,0.9
+dilapidated warehouse,wood,playful,#F3F628,243,246,40,0.68,0.5,0.52
+urban rooftop,market,happy,#B75726,183,87,38,0.67,0.59,0.47
+cyberpunk alley,metal/rust,warm,#012FBE,1,47,190,0.73,0.37,0.34
+mossy cave,market,calm,#6F0D41,111,13,65,0.13,0.85,0.41
+dilapidated warehouse,stone,focused,#AF8AAA,175,138,170,0.27,0.52,0.46
+enchanted garden,cave,lonely,#0B865E,11,134,94,0.4,0.8,0.31
+desert highway,grassland,romantic,#8CBA95,140,186,149,0.26,0.62,0.97
+lantern-lit street,metal/rust,warm,#20079D,32,7,157,0.97,0.98,1.0
+mossy cave,crystal,calm,#DBC9FB,219,201,251,0.29,0.75,0.91
+lantern-lit street,metal/rust,melancholic,#849ECB,132,158,203,0.78,0.9,0.61
+enchanted garden,artificial-light,calm,#A4E3D2,164,227,210,0.22,0.98,0.7
+crystal cavern,artificial-light,warm,#2167A3,33,103,163,0.86,0.97,0.41
+rainy night market,temple,nostalgic,#39C4C4,57,196,196,0.23,0.1,0.89
+mossy cave,sand,romantic,#9B7B0D,155,123,13,0.29,0.41,0.95
+abandoned railway,crystal,romantic,#6327F2,99,39,242,0.69,0.32,0.61
+ancient temple,sand,nostalgic,#598F7C,89,143,124,0.91,0.77,0.37
+crystal cavern,stone,melancholic,#0EB716,14,183,22,0.92,0.49,0.42
+rainy night market,concrete,romantic,#69950C,105,149,12,0.47,0.16,0.43
+futuristic lab,rain,peaceful,#5EBC3D,94,188,61,0.33,0.58,0.42
+futuristic lab,coast,serene,#401E80,64,30,128,0.82,0.83,0.82
+quiet meadow,cave,serene,#B55CA3,181,92,163,0.81,0.64,0.9
+desert highway,artificial-light,playful,#31888F,49,136,143,0.27,0.2,0.98
+foggy mountain trail,garden,excited,#E7B05F,231,176,95,0.93,0.36,0.5
+sunrise beach,rain,calm,#124108,18,65,8,0.43,0.47,0.71
+neon arcade room,cave,melancholic,#BC4E8A,188,78,138,0.43,0.56,0.95
+quiet meadow,artificial-light,playful,#9C46BF,156,70,191,0.72,0.53,0.88
+lantern-lit street,nature,energetic,#E019CF,224,25,207,0.21,0.14,0.8
+desert highway,underground,energetic,#1A8AED,26,138,237,0.79,0.19,0.35
+ancient temple,concrete,intense,#846F3A,132,111,58,0.97,0.29,0.76
+neon arcade room,nature,excited,#F20327,242,3,39,0.26,0.61,0.61
+stormy coastline,urban,happy,#D92A25,217,42,37,0.64,0.6,0.35
+underground bunker,sand,nostalgic,#EE136D,238,19,109,0.39,0.61,0.93
+forest shrine,concrete,melancholic,#1A4919,26,73,25,0.39,0.78,0.89
+ancient temple,concrete,serene,#8AD572,138,213,114,0.18,0.47,0.67
+ancient temple,temple,lonely,#C599C3,197,153,195,0.79,0.67,1.0
+crystal cavern,underground,serene,#E40471,228,4,113,0.43,0.23,0.95
+lantern-lit street,rain,nostalgic,#E485FD,228,133,253,0.45,0.74,0.67
+futuristic lab,temple,warm,#C89389,200,147,137,0.51,0.73,0.35
+foggy mountain trail,sand,serene,#B6DDDB,182,221,219,0.65,0.69,0.69
+mossy cave,market,peaceful,#9C7650,156,118,80,0.22,0.68,0.73
+abandoned railway,lab,lonely,#1B4DAE,27,77,174,0.63,0.73,0.69
+stormy coastline,grassland,energetic,#FAA962,250,169,98,0.93,0.55,0.43
+quiet meadow,lab,calm,#B28E45,178,142,69,0.69,0.11,0.36
+desert highway,coast,warm,#C09248,192,146,72,0.43,0.49,0.45
+old library,grassland,serene,#F73F37,247,63,55,0.61,0.36,0.67
+forest shrine,market,mysterious,#7EEBB4,126,235,180,0.66,0.92,0.49
+abandoned railway,cave,energetic,#93FA30,147,250,48,0.72,0.55,0.41
+cyberpunk alley,nature,warm,#C25669,194,86,105,0.24,0.12,0.87
+lantern-lit street,wood,intense,#449B44,68,155,68,0.48,0.97,0.35
+old library,sand,focused,#4E9EF3,78,158,243,0.86,0.94,0.35
+old library,wood,warm,#655B8B,101,91,139,0.84,0.83,0.87
+urban rooftop,grassland,mysterious,#D8A7E8,216,167,232,0.65,0.65,0.38
+stormy coastline,wood,excited,#63F955,99,249,85,0.83,0.37,0.7
+lantern-lit street,artificial-light,melancholic,#22C35E,34,195,94,1.0,0.27,0.92
+sunrise beach,grassland,energetic,#95B74F,149,183,79,0.45,0.52,0.71
+ancient temple,metal/rust,playful,#DC5B86,220,91,134,0.89,0.4,0.78
+neon arcade room,grassland,peaceful,#5C1EC5,92,30,197,0.19,0.68,0.92
+abandoned railway,artificial-light,melancholic,#6DCA65,109,202,101,0.86,0.61,0.54
+neon arcade room,fog/mist,energetic,#F1113E,241,17,62,0.17,0.41,0.36
+enchanted garden,lab,focused,#B08EFB,176,142,251,0.95,0.85,0.5
+mossy cave,wood,serene,#AFD447,175,212,71,0.3,0.1,0.37
+mossy cave,rain,serene,#2D78C2,45,120,194,0.63,0.1,0.71
+underground bunker,underground,melancholic,#6D7E45,109,126,69,0.39,0.51,0.94
+quiet meadow,urban,peaceful,#1C2B78,28,43,120,0.74,0.66,0.45
+neon arcade room,urban,playful,#387D09,56,125,9,0.88,0.26,0.42
+lantern-lit street,concrete,dark,#BE780A,190,120,10,0.31,0.77,0.37
+mossy cave,garden,focused,#CF75A8,207,117,168,0.93,0.57,0.58
+lantern-lit street,nature,excited,#849141,132,145,65,0.76,0.93,0.33
+rainy night market,wood,happy,#1216CD,18,22,205,0.82,0.96,0.59
+dilapidated warehouse,grassland,calm,#71364B,113,54,75,0.77,0.43,0.49
+mossy cave,cave,excited,#9BBB06,155,187,6,0.9,0.45,0.49
+sunrise beach,coast,calm,#3730D4,55,48,212,0.13,0.97,0.56
+lantern-lit street,nature,romantic,#EE3BAA,238,59,170,0.7,0.79,0.97
+crystal cavern,sand,melancholic,#3A78A4,58,120,164,0.77,0.16,0.71
+cyberpunk alley,crystal,focused,#31A18A,49,161,138,0.53,0.33,0.77
+desert highway,lab,lonely,#273521,39,53,33,0.64,0.43,0.57
+quiet meadow,cave,melancholic,#709B40,112,155,64,0.28,0.35,1.0
+futuristic lab,lab,playful,#AFAD99,175,173,153,0.39,0.15,0.7
+stormy coastline,cyber,nostalgic,#4AD35D,74,211,93,0.5,0.24,0.4
+desert highway,temple,melancholic,#06B3E8,6,179,232,0.6,0.12,0.72
+dilapidated warehouse,metal/rust,lonely,#4DAD60,77,173,96,0.74,0.79,0.55
+quiet meadow,coast,serene,#CEA653,206,166,83,0.5,0.78,0.52
+lantern-lit street,temple,happy,#A8DA25,168,218,37,0.55,0.27,0.96
+enchanted garden,crystal,calm,#40D2D3,64,210,211,0.47,0.5,0.34
+enchanted garden,cave,energetic,#F6A5C8,246,165,200,0.67,0.78,0.47
+lantern-lit street,metal/rust,peaceful,#B553EE,181,83,238,0.95,0.78,0.58
+ancient temple,market,nostalgic,#FA333C,250,51,60,0.43,0.63,0.97
+cyberpunk alley,temple,excited,#10DB4E,16,219,78,0.82,0.22,0.9
+old library,cyber,calm,#2AF02F,42,240,47,0.24,0.88,0.66
+abandoned railway,crystal,focused,#75D88D,117,216,141,0.62,0.25,0.44
+mossy cave,crystal,nostalgic,#07AE6F,7,174,111,0.74,0.76,0.35
+cyberpunk alley,grassland,energetic,#992E73,153,46,115,0.24,0.65,0.63
+lantern-lit street,sand,happy,#98A3B8,152,163,184,0.61,0.48,0.65
+crystal cavern,urban,focused,#9C6881,156,104,129,0.67,0.15,0.7
+rainy night market,garden,energetic,#01DB03,1,219,3,0.93,0.94,0.75
+desert highway,stone,excited,#197890,25,120,144,0.61,0.15,0.43
+neon arcade room,nature,intense,#ED0D64,237,13,100,0.37,0.25,0.55
+ancient temple,garden,excited,#1CFA87,28,250,135,0.9,0.53,0.64
+neon arcade room,crystal,serene,#1FBBE6,31,187,230,0.36,0.36,0.67
+mossy cave,metal/rust,melancholic,#80387C,128,56,124,0.62,0.38,0.98
+dilapidated warehouse,nature,intense,#C5C77E,197,199,126,0.85,0.27,0.81
+crystal cavern,crystal,warm,#CB39A1,203,57,161,0.12,0.81,0.42
+crystal cavern,urban,playful,#94904A,148,144,74,0.89,0.21,1.0
+enchanted garden,temple,energetic,#1BA148,27,161,72,0.5,0.81,0.97
+quiet meadow,cave,nostalgic,#FBFDEE,251,253,238,0.55,0.75,0.91
+cyberpunk alley,coast,mysterious,#9A9A4F,154,154,79,0.82,0.61,0.88
+desert highway,temple,melancholic,#8D1D90,141,29,144,0.27,0.84,0.74
+forest shrine,market,warm,#960DBE,150,13,190,0.38,0.28,0.36
+quiet meadow,cyber,happy,#3873A9,56,115,169,0.33,0.83,0.63
+urban rooftop,metal/rust,mysterious,#9C029D,156,2,157,0.68,0.68,0.58
+ancient temple,market,romantic,#06B5FB,6,181,251,0.14,0.28,0.87
+mossy cave,coast,excited,#531A6A,83,26,106,0.38,0.81,0.43
+crystal cavern,nature,dark,#26EF87,38,239,135,0.82,0.72,0.96
+underground bunker,metal/rust,melancholic,#868B06,134,139,6,0.88,0.15,0.88
+quiet meadow,cave,excited,#D19E76,209,158,118,0.55,0.33,0.73
+old library,cyber,warm,#92C62E,146,198,46,0.93,0.27,0.43
+dilapidated warehouse,coast,calm,#2A9C34,42,156,52,0.17,0.71,0.3
+underground bunker,garden,serene,#BDB1A1,189,177,161,0.51,0.58,0.77
+old library,nature,mysterious,#DF0AB1,223,10,177,0.78,0.77,0.35
+ancient temple,nature,calm,#5077AA,80,119,170,0.58,0.55,0.42
+stormy coastline,metal/rust,excited,#201E7A,32,30,122,0.45,0.93,0.55
+old library,cyber,peaceful,#6EFB03,110,251,3,0.8,0.42,0.96
+old library,cave,happy,#5746B9,87,70,185,0.46,0.61,0.62
+enchanted garden,cave,excited,#ACA086,172,160,134,0.49,0.27,0.43
+crystal cavern,urban,peaceful,#205EA8,32,94,168,0.63,0.67,0.95
+desert highway,cyber,energetic,#4D234E,77,35,78,0.89,0.79,0.43
+stormy coastline,market,excited,#FC9413,252,148,19,0.5,0.9,0.58
+stormy coastline,urban,dark,#4DA76E,77,167,110,0.24,0.42,0.86
+dilapidated warehouse,concrete,playful,#FD3A27,253,58,39,0.11,0.5,0.96
+dilapidated warehouse,metal/rust,calm,#15475E,21,71,94,0.56,0.95,0.65
+dilapidated warehouse,garden,focused,#0C64A6,12,100,166,0.16,0.19,0.98
+crystal cavern,market,excited,#753FA9,117,63,169,0.29,0.75,0.94
+quiet meadow,underground,lonely,#EEE655,238,230,85,0.66,0.75,0.46
+quiet meadow,market,energetic,#CB8B9C,203,139,156,0.84,0.84,0.31
+cyberpunk alley,rain,playful,#C7433B,199,67,59,0.8,0.13,0.31
+stormy coastline,cyber,serene,#6EDB3A,110,219,58,0.89,0.39,0.93
+enchanted garden,garden,peaceful,#ED6A6E,237,106,110,0.29,0.13,0.7
+desert highway,cyber,nostalgic,#36C100,54,193,0,0.91,0.68,0.65
+cyberpunk alley,coast,lonely,#7C42C6,124,66,198,0.89,0.68,0.58
+forest shrine,metal/rust,calm,#1EAF6E,30,175,110,0.2,0.18,0.43
+abandoned railway,lab,excited,#7B0BD9,123,11,217,0.18,0.86,0.64
+underground bunker,nature,dark,#3A19C0,58,25,192,0.64,0.93,0.39
+forest shrine,crystal,serene,#38BB2E,56,187,46,0.55,0.7,0.85
+enchanted garden,sand,excited,#C3D865,195,216,101,0.65,0.86,0.54
+cyberpunk alley,cave,excited,#B59EFC,181,158,252,0.25,0.69,0.89
+futuristic lab,grassland,dark,#272EE6,39,46,230,0.11,0.32,0.51
+ancient temple,sand,warm,#6C17F0,108,23,240,0.5,0.95,0.85
+foggy mountain trail,urban,romantic,#BFCD1C,191,205,28,0.74,0.94,0.35
+neon arcade room,cyber,excited,#79E000,121,224,0,1.0,0.82,0.55
+neon arcade room,artificial-light,lonely,#AA07EE,170,7,238,0.28,0.41,0.61
+enchanted garden,garden,serene,#A82D22,168,45,34,0.2,0.89,0.35
+abandoned railway,nature,intense,#438BD0,67,139,208,0.7,0.25,0.47
+rainy night market,nature,dark,#449790,68,151,144,0.12,0.55,0.49
+foggy mountain trail,coast,happy,#5EBDCD,94,189,205,0.2,0.49,0.81
+abandoned railway,grassland,playful,#963416,150,52,22,0.25,0.18,0.88
+rainy night market,stone,playful,#AD2C1B,173,44,27,0.81,0.29,0.63
+desert highway,cave,romantic,#DD233E,221,35,62,0.63,0.16,0.9
+desert highway,metal/rust,excited,#32661D,50,102,29,0.41,0.67,0.79
+forest shrine,grassland,happy,#F6DD17,246,221,23,0.24,0.15,0.89
+quiet meadow,fog/mist,energetic,#E29E4E,226,158,78,0.47,0.63,0.35
+stormy coastline,cyber,serene,#062EA3,6,46,163,0.69,0.11,0.9
+foggy mountain trail,cave,intense,#95B3BA,149,179,186,0.63,0.44,0.6
+urban rooftop,sand,nostalgic,#AB85EB,171,133,235,0.23,0.24,0.45
+cyberpunk alley,urban,calm,#E3475E,227,71,94,0.42,0.22,0.67
+abandoned railway,nature,intense,#2A2C8C,42,44,140,0.32,0.38,0.73
+abandoned railway,wood,mysterious,#B1F195,177,241,149,0.47,0.69,0.97
+enchanted garden,cyber,happy,#405928,64,89,40,0.19,1.0,0.98
+cyberpunk alley,lab,intense,#ABBF04,171,191,4,0.55,0.46,0.68
+mossy cave,sand,happy,#A1325F,161,50,95,0.68,0.6,0.9
+sunrise beach,artificial-light,playful,#E2A532,226,165,50,0.45,0.62,0.91
+rainy night market,artificial-light,focused,#9CC0C1,156,192,193,0.22,0.99,0.67
+neon arcade room,rain,focused,#6C66BC,108,102,188,0.42,0.89,0.73
+abandoned railway,cyber,playful,#EA9777,234,151,119,0.5,0.48,0.55
+abandoned railway,garden,dark,#83BE0C,131,190,12,0.82,0.84,0.4
+sunrise beach,temple,nostalgic,#D25C67,210,92,103,0.75,0.4,0.84
+foggy mountain trail,urban,calm,#025004,2,80,4,0.21,0.15,0.52
+crystal cavern,market,focused,#70B601,112,182,1,0.55,0.71,0.96
+foggy mountain trail,temple,melancholic,#0AA5AE,10,165,174,0.77,0.69,0.62
+foggy mountain trail,wood,dark,#DF968F,223,150,143,0.94,0.15,0.84
+neon arcade room,artificial-light,energetic,#CC6372,204,99,114,0.37,0.65,0.44
+rainy night market,garden,excited,#2FFF5A,47,255,90,0.23,0.7,0.76
+rainy night market,temple,warm,#81CCE9,129,204,233,0.41,0.31,0.94
+underground bunker,crystal,romantic,#466A52,70,106,82,0.28,0.97,0.76
+enchanted garden,temple,lonely,#C22079,194,32,121,0.34,0.9,0.64
+lantern-lit street,garden,lonely,#324747,50,71,71,0.68,0.66,0.9
+ancient temple,underground,nostalgic,#78A40D,120,164,13,0.19,0.2,0.87
+ancient temple,sand,calm,#503D3D,80,61,61,0.83,0.97,0.47
+crystal cavern,fog/mist,melancholic,#72C4B9,114,196,185,0.12,0.32,0.93
+crystal cavern,urban,dark,#F49CF4,244,156,244,0.48,0.18,0.36
+dilapidated warehouse,metal/rust,happy,#4B13A0,75,19,160,0.26,0.19,0.75
+ancient temple,fog/mist,peaceful,#34982B,52,152,43,0.4,0.88,0.85
+foggy mountain trail,nature,playful,#7E926C,126,146,108,0.97,0.54,0.5
+neon arcade room,sand,mysterious,#FFD3FD,255,211,253,0.83,0.52,0.66
+quiet meadow,underground,mysterious,#36D65A,54,214,90,0.38,0.24,0.83
+futuristic lab,temple,calm,#E58CDE,229,140,222,0.68,0.44,0.67
+ancient temple,underground,romantic,#0CECDA,12,236,218,0.33,0.7,0.88
+mossy cave,lab,playful,#00508C,0,80,140,0.4,0.21,0.36
+rainy night market,nature,nostalgic,#60A638,96,166,56,0.66,0.55,0.31
+crystal cavern,garden,happy,#8521EE,133,33,238,0.89,0.63,0.81
+lantern-lit street,nature,dark,#D452EF,212,82,239,0.95,0.26,0.38
+dilapidated warehouse,nature,focused,#B0BF02,176,191,2,0.9,0.94,0.44
+abandoned railway,metal/rust,nostalgic,#5FD184,95,209,132,0.83,0.35,0.76
+urban rooftop,artificial-light,melancholic,#D3D343,211,211,67,0.49,0.33,0.63
+futuristic lab,underground,warm,#82FFCA,130,255,202,0.98,0.95,0.87
+abandoned railway,cave,calm,#E506D2,229,6,210,0.76,0.68,0.4
+lantern-lit street,rain,playful,#9AD050,154,208,80,0.26,0.88,0.82
+lantern-lit street,cyber,dark,#6735C9,103,53,201,0.78,0.71,0.51
+desert highway,artificial-light,warm,#577070,87,112,112,0.86,0.64,0.9
+dilapidated warehouse,cave,warm,#95445C,149,68,92,0.83,0.38,0.99
+rainy night market,garden,nostalgic,#B426D4,180,38,212,0.64,0.69,0.93
+dilapidated warehouse,coast,lonely,#245BDC,36,91,220,0.4,0.44,0.99
+forest shrine,concrete,nostalgic,#E6E0E7,230,224,231,0.47,0.74,0.75
+quiet meadow,stone,mysterious,#B5F5A4,181,245,164,0.84,0.57,0.34
+forest shrine,fog/mist,playful,#8A26C7,138,38,199,0.17,0.7,0.63
+futuristic lab,fog/mist,warm,#1D22F1,29,34,241,0.65,0.27,0.64
+urban rooftop,sand,peaceful,#2E6BA0,46,107,160,0.14,0.14,0.61
+stormy coastline,urban,excited,#F1B145,241,177,69,0.58,0.2,0.58
+quiet meadow,cave,nostalgic,#B243F0,178,67,240,0.16,0.73,0.69
+futuristic lab,coast,warm,#CFFA2C,207,250,44,0.51,0.93,0.77
+rainy night market,temple,excited,#7AB387,122,179,135,0.91,0.98,0.55
+quiet meadow,grassland,dark,#F9A2F9,249,162,249,0.74,0.86,0.42
+stormy coastline,fog/mist,nostalgic,#968625,150,134,37,0.12,0.82,0.86
+cyberpunk alley,lab,calm,#CD6FA5,205,111,165,0.26,0.32,0.4
+abandoned railway,crystal,nostalgic,#87EEE1,135,238,225,0.32,0.73,0.78
+quiet meadow,stone,warm,#842DBA,132,45,186,0.93,0.46,0.69
+abandoned railway,nature,excited,#CFEC19,207,236,25,0.64,0.24,0.35
+lantern-lit street,sand,focused,#15D472,21,212,114,0.11,0.36,0.5
+dilapidated warehouse,temple,focused,#D2CBB0,210,203,176,0.35,0.56,0.99
+futuristic lab,market,energetic,#9CE167,156,225,103,0.71,0.84,0.48
+quiet meadow,temple,intense,#32FF57,50,255,87,0.19,0.87,0.8
+abandoned railway,metal/rust,calm,#4BD857,75,216,87,0.93,0.25,0.86
+abandoned railway,rain,peaceful,#98C63B,152,198,59,0.88,0.87,0.84
+urban rooftop,underground,calm,#A1FF31,161,255,49,0.29,0.11,0.66
+dilapidated warehouse,cave,melancholic,#E6AE50,230,174,80,0.36,0.78,0.76
+futuristic lab,coast,energetic,#FAD7DF,250,215,223,0.37,0.17,0.54
+foggy mountain trail,metal/rust,energetic,#77792B,119,121,43,0.48,0.42,0.89
+enchanted garden,garden,lonely,#0B7CCD,11,124,205,0.93,0.11,0.88
+enchanted garden,rain,happy,#2A7C97,42,124,151,0.87,0.77,0.8
+dilapidated warehouse,concrete,calm,#EFD93C,239,217,60,0.75,0.76,0.51
+old library,artificial-light,intense,#CF339B,207,51,155,0.85,0.75,0.67
+underground bunker,cave,happy,#F42EE5,244,46,229,0.89,0.29,0.59
+ancient temple,garden,warm,#940BCC,148,11,204,0.42,0.24,0.64
+neon arcade room,rain,warm,#AE62D1,174,98,209,0.88,0.81,0.97
+rainy night market,garden,dark,#DBD060,219,208,96,0.64,0.96,0.94
+stormy coastline,urban,happy,#4345C7,67,69,199,0.5,0.45,0.5
+dilapidated warehouse,metal/rust,energetic,#6913F8,105,19,248,0.66,0.87,0.7
+sunrise beach,lab,romantic,#0FBA40,15,186,64,0.84,0.27,0.7
+dilapidated warehouse,concrete,peaceful,#DB89EF,219,137,239,0.38,0.77,0.89
+forest shrine,grassland,mysterious,#034378,3,67,120,0.63,0.15,0.61
+rainy night market,stone,serene,#C6E419,198,228,25,0.36,0.5,0.44
+urban rooftop,fog/mist,romantic,#648C19,100,140,25,0.82,0.86,0.82
+foggy mountain trail,grassland,mysterious,#9EA9CD,158,169,205,0.84,0.51,0.35
+dilapidated warehouse,crystal,warm,#C5B24B,197,178,75,0.98,0.91,0.44
+underground bunker,fog/mist,intense,#DD5644,221,86,68,0.16,0.73,0.92
+foggy mountain trail,nature,playful,#24F0FD,36,240,253,0.64,0.4,0.56
+enchanted garden,metal/rust,mysterious,#96EDE2,150,237,226,0.3,0.34,0.68
+forest shrine,concrete,excited,#0A3F8F,10,63,143,0.88,0.23,1.0
+neon arcade room,artificial-light,mysterious,#8A3C97,138,60,151,0.99,0.85,0.77
+futuristic lab,cave,warm,#5A625D,90,98,93,0.85,0.83,0.49
+neon arcade room,cave,mysterious,#A6ABE5,166,171,229,0.66,0.1,0.49
+abandoned railway,nature,lonely,#A836DD,168,54,221,0.61,0.84,0.34
+quiet meadow,crystal,energetic,#06D75E,6,215,94,0.97,0.72,0.95
+urban rooftop,coast,excited,#C78749,199,135,73,0.34,0.27,0.61
+lantern-lit street,urban,focused,#C6802C,198,128,44,0.97,0.57,0.63
+enchanted garden,lab,romantic,#C1C704,193,199,4,0.43,0.22,0.31
+rainy night market,garden,peaceful,#E972E4,233,114,228,0.14,0.32,0.37
+stormy coastline,cyber,focused,#589F89,88,159,137,0.45,0.9,0.36
+stormy coastline,artificial-light,dark,#45DC91,69,220,145,0.93,0.98,0.47
+abandoned railway,grassland,excited,#F0A220,240,162,32,0.8,0.61,0.54
+futuristic lab,wood,romantic,#7CE334,124,227,52,0.82,0.66,0.68
+abandoned railway,garden,dark,#E665BB,230,101,187,0.44,0.79,0.37
+crystal cavern,cave,playful,#BA6AD9,186,106,217,0.78,0.23,0.63
+neon arcade room,temple,melancholic,#425769,66,87,105,0.77,0.29,0.54
+lantern-lit street,rain,melancholic,#9F4A6A,159,74,106,0.43,0.23,0.44
+rainy night market,lab,romantic,#521D21,82,29,33,0.99,0.78,0.45
+crystal cavern,coast,romantic,#E37167,227,113,103,0.8,0.61,0.35
+cyberpunk alley,grassland,intense,#36C703,54,199,3,0.96,0.85,0.8
+quiet meadow,artificial-light,happy,#C59386,197,147,134,0.76,0.28,0.75
+underground bunker,garden,dark,#A94251,169,66,81,0.79,0.71,0.38
+crystal cavern,lab,energetic,#ED9409,237,148,9,0.95,0.37,0.5
+crystal cavern,urban,calm,#1EDD6D,30,221,109,0.65,0.91,0.65
+crystal cavern,lab,focused,#7C9315,124,147,21,0.96,0.75,0.34
+stormy coastline,fog/mist,mysterious,#3256A8,50,86,168,0.53,0.55,0.95
+sunrise beach,rain,warm,#364246,54,66,70,0.44,0.28,0.6
+sunrise beach,nature,nostalgic,#AA3D69,170,61,105,0.79,0.54,0.58
+underground bunker,sand,focused,#78E258,120,226,88,0.45,0.33,0.54
+crystal cavern,stone,nostalgic,#A6B560,166,181,96,0.2,0.97,0.49
+dilapidated warehouse,temple,lonely,#CA4302,202,67,2,0.84,0.2,0.3
+futuristic lab,urban,excited,#2CB9EB,44,185,235,0.39,0.74,0.9
+desert highway,concrete,happy,#CB7204,203,114,4,0.85,0.5,0.72
+quiet meadow,cyber,dark,#60F1CA,96,241,202,0.4,0.81,0.82
+forest shrine,rain,calm,#34E32C,52,227,44,0.59,0.23,0.89
+old library,garden,playful,#D269B0,210,105,176,0.74,0.86,0.8
+mossy cave,rain,peaceful,#8E0A19,142,10,25,0.62,0.25,0.72
+ancient temple,temple,playful,#3356D0,51,86,208,0.16,0.96,0.87
+sunrise beach,nature,lonely,#A8BD9B,168,189,155,0.57,0.16,0.8
+lantern-lit street,wood,calm,#3FFFE4,63,255,228,0.38,0.53,0.35
+underground bunker,wood,nostalgic,#C25FA5,194,95,165,0.16,0.25,0.4
+cyberpunk alley,wood,calm,#0FE6BE,15,230,190,0.17,0.72,0.87
+old library,temple,warm,#B2D108,178,209,8,0.76,0.14,0.89
+stormy coastline,urban,melancholic,#BA793A,186,121,58,0.93,0.45,0.4
+mossy cave,rain,energetic,#4A7FC7,74,127,199,0.15,0.4,0.39
+foggy mountain trail,rain,romantic,#18224F,24,34,79,0.21,0.63,0.68
+forest shrine,fog/mist,energetic,#6F5172,111,81,114,0.75,0.35,0.85
+old library,rain,romantic,#DEE4D2,222,228,210,0.62,0.71,0.38
+dilapidated warehouse,cave,romantic,#DC05E9,220,5,233,0.71,0.67,0.45
+enchanted garden,cyber,serene,#5CBF37,92,191,55,0.42,0.33,0.61
+rainy night market,grassland,dark,#858832,133,136,50,0.36,0.49,0.97
+cyberpunk alley,stone,focused,#641D5E,100,29,94,0.3,0.78,0.76
+stormy coastline,coast,peaceful,#2F9880,47,152,128,1.0,0.41,0.78
+rainy night market,concrete,melancholic,#CA5B39,202,91,57,0.18,0.37,0.72
+stormy coastline,grassland,nostalgic,#D49002,212,144,2,0.21,0.18,0.85
+old library,crystal,happy,#29B199,41,177,153,0.31,0.6,0.81
+cyberpunk alley,stone,nostalgic,#DE62CD,222,98,205,0.15,0.43,0.44
+quiet meadow,fog/mist,serene,#C5273D,197,39,61,0.38,0.5,0.86
+dilapidated warehouse,metal/rust,focused,#68D2FB,104,210,251,0.82,0.41,0.99
+crystal cavern,concrete,lonely,#0E5BB6,14,91,182,0.24,0.43,0.79
+stormy coastline,garden,happy,#D6B389,214,179,137,0.88,0.87,0.99
+rainy night market,fog/mist,melancholic,#C028CE,192,40,206,1.0,0.54,0.82
+crystal cavern,temple,lonely,#6B2118,107,33,24,0.86,0.92,0.87
+neon arcade room,fog/mist,mysterious,#C74EC1,199,78,193,0.43,0.94,0.88
+old library,crystal,focused,#96C6D4,150,198,212,0.47,0.45,0.54
+old library,garden,warm,#4DB920,77,185,32,0.67,0.66,0.59
+abandoned railway,crystal,lonely,#926405,146,100,5,0.13,0.59,0.81
+desert highway,urban,romantic,#06B227,6,178,39,0.35,0.51,0.4
+abandoned railway,market,focused,#178178,23,129,120,0.73,0.76,0.96
+old library,coast,warm,#3AB18F,58,177,143,0.7,0.21,0.47
+urban rooftop,stone,nostalgic,#76E13C,118,225,60,0.58,0.13,0.33
+foggy mountain trail,crystal,playful,#468929,70,137,41,0.58,0.56,0.92
+rainy night market,underground,peaceful,#174EEE,23,78,238,0.33,0.48,0.57
+lantern-lit street,crystal,intense,#249952,36,153,82,0.16,0.55,0.54
+neon arcade room,market,playful,#8A444F,138,68,79,0.54,0.47,0.36
+futuristic lab,fog/mist,happy,#E5A28A,229,162,138,0.8,0.3,0.81
+crystal cavern,temple,excited,#4136CB,65,54,203,0.43,0.64,0.71
+ancient temple,rain,excited,#F3DB9C,243,219,156,0.15,0.59,0.7
+desert highway,fog/mist,playful,#467B4F,70,123,79,0.51,0.53,0.36
+foggy mountain trail,cave,dark,#09CAFA,9,202,250,0.55,0.76,0.59
+lantern-lit street,cave,excited,#96EA84,150,234,132,0.68,0.18,0.47
+ancient temple,cyber,calm,#E8E23D,232,226,61,0.95,0.46,0.61
+urban rooftop,garden,happy,#666B14,102,107,20,0.64,0.6,0.98
+underground bunker,market,focused,#67AE98,103,174,152,0.55,0.42,0.64
+enchanted garden,stone,lonely,#87ED86,135,237,134,0.39,0.69,0.7
+cyberpunk alley,cave,playful,#390CAC,57,12,172,0.93,0.38,0.43
+desert highway,urban,dark,#88D270,136,210,112,0.97,0.82,0.46
+stormy coastline,coast,playful,#628C39,98,140,57,0.27,0.89,0.51
+old library,grassland,dark,#BAA8A7,186,168,167,0.37,0.95,1.0
+sunrise beach,underground,focused,#AA2123,170,33,35,0.8,0.81,0.7
+quiet meadow,cyber,lonely,#148FAE,20,143,174,0.11,0.93,0.4
+urban rooftop,grassland,dark,#100E6C,16,14,108,0.75,0.14,0.89
+sunrise beach,rain,dark,#47EDD4,71,237,212,0.69,0.69,0.75
+urban rooftop,metal/rust,melancholic,#8E40BE,142,64,190,0.89,0.42,0.49
+rainy night market,sand,intense,#A5A6B6,165,166,182,0.11,0.77,0.96
+mossy cave,fog/mist,romantic,#B238C0,178,56,192,0.85,0.83,0.79
+old library,nature,intense,#D5C456,213,196,86,0.98,0.94,0.44
+neon arcade room,urban,focused,#4E0FE0,78,15,224,0.33,0.23,0.44
+stormy coastline,concrete,nostalgic,#A66411,166,100,17,0.27,0.23,0.44
+quiet meadow,artificial-light,peaceful,#6A88FB,106,136,251,0.65,0.49,0.93
+rainy night market,grassland,serene,#D67423,214,116,35,0.53,0.59,0.51
+neon arcade room,rain,serene,#45A9E8,69,169,232,0.27,0.57,0.79
+rainy night market,temple,dark,#287644,40,118,68,0.23,0.66,0.46
+neon arcade room,fog/mist,mysterious,#8D2A5A,141,42,90,0.59,0.97,0.6
+futuristic lab,coast,lonely,#D34502,211,69,2,0.74,0.45,0.83
+enchanted garden,nature,melancholic,#5774F0,87,116,240,0.74,0.46,0.58
+stormy coastline,artificial-light,intense,#08AB2F,8,171,47,0.46,0.88,0.75
+underground bunker,temple,nostalgic,#80A60A,128,166,10,0.61,0.8,0.76
+dilapidated warehouse,stone,warm,#A16A72,161,106,114,0.24,0.47,0.61
+old library,rain,excited,#F054A9,240,84,169,0.21,0.69,0.87
+sunrise beach,garden,intense,#E9E08E,233,224,142,0.83,0.14,0.68
+desert highway,grassland,calm,#23EFE9,35,239,233,0.28,0.11,0.62
+lantern-lit street,sand,excited,#5B6C5D,91,108,93,0.87,0.53,0.99
+futuristic lab,cave,dark,#5A7EE2,90,126,226,0.32,0.96,0.93
+urban rooftop,stone,mysterious,#9C9B29,156,155,41,0.63,0.59,0.73
+crystal cavern,market,lonely,#382B3B,56,43,59,0.82,0.1,0.31
+foggy mountain trail,metal/rust,warm,#125F7A,18,95,122,0.78,0.71,0.35
+mossy cave,temple,peaceful,#03BF9E,3,191,158,0.84,0.3,0.67
+underground bunker,temple,mysterious,#BF06FE,191,6,254,0.51,0.37,0.34
+lantern-lit street,cave,nostalgic,#E1EC49,225,236,73,0.87,0.91,0.54
+abandoned railway,nature,nostalgic,#A8C9F6,168,201,246,0.64,0.62,0.35
+lantern-lit street,artificial-light,melancholic,#0B7FC0,11,127,192,0.78,0.2,0.57
+stormy coastline,metal/rust,romantic,#85C1FB,133,193,251,0.86,0.72,0.84
+ancient temple,garden,excited,#F39647,243,150,71,0.45,0.43,0.62
+crystal cavern,wood,romantic,#75A60D,117,166,13,0.41,0.18,0.84
+stormy coastline,wood,focused,#7C7B87,124,123,135,0.22,0.21,0.7
+rainy night market,temple,excited,#8FDA46,143,218,70,0.52,0.98,0.53
+dilapidated warehouse,coast,peaceful,#5D7322,93,115,34,0.16,0.87,0.79
+quiet meadow,underground,excited,#70FD35,112,253,53,0.92,0.24,0.46
+old library,underground,intense,#2F1DA7,47,29,167,0.6,0.12,0.64
+underground bunker,temple,warm,#9B118F,155,17,143,0.8,0.16,0.88
+old library,artificial-light,nostalgic,#BEA8ED,190,168,237,0.4,0.54,0.85
+quiet meadow,temple,calm,#863174,134,49,116,0.61,0.86,0.36
+rainy night market,fog/mist,romantic,#7897D9,120,151,217,0.78,0.6,0.81
+futuristic lab,wood,calm,#F58582,245,133,130,0.96,0.73,0.47
+desert highway,metal/rust,romantic,#1C6629,28,102,41,0.16,0.84,0.84
+rainy night market,sand,calm,#9EF102,158,241,2,0.99,0.68,0.58
+ancient temple,underground,focused,#6DBAAB,109,186,171,0.37,0.87,0.82
+foggy mountain trail,grassland,serene,#4EBAF7,78,186,247,0.52,0.83,0.4
+forest shrine,crystal,nostalgic,#358889,53,136,137,0.62,0.81,0.7
+lantern-lit street,stone,nostalgic,#BCAC31,188,172,49,0.44,0.38,0.71
+lantern-lit street,temple,playful,#5B950A,91,149,10,0.16,0.51,0.71
+crystal cavern,grassland,excited,#197BBF,25,123,191,0.69,0.36,0.43
+desert highway,stone,lonely,#31151B,49,21,27,0.99,0.32,0.91
+rainy night market,underground,happy,#53906B,83,144,107,0.51,0.27,0.79
+underground bunker,stone,intense,#494A97,73,74,151,0.73,0.98,0.82
+old library,wood,intense,#45B77B,69,183,123,0.8,0.63,0.57
+dilapidated warehouse,metal/rust,dark,#520468,82,4,104,0.12,0.2,0.99
+enchanted garden,fog/mist,romantic,#CEC63C,206,198,60,0.96,0.69,0.55
+crystal cavern,lab,peaceful,#B719A8,183,25,168,0.61,0.48,0.42
+old library,fog/mist,focused,#583F39,88,63,57,0.4,0.69,0.76
+dilapidated warehouse,artificial-light,romantic,#104FD9,16,79,217,0.8,0.25,0.51
+abandoned railway,urban,energetic,#5EF4EE,94,244,238,0.82,0.34,0.74
+dilapidated warehouse,wood,romantic,#B6F91A,182,249,26,0.76,0.87,0.96
+dilapidated warehouse,temple,lonely,#E89D06,232,157,6,0.29,0.66,0.33
+futuristic lab,concrete,playful,#913B33,145,59,51,0.64,0.56,0.53
+enchanted garden,urban,lonely,#EC3935,236,57,53,0.15,0.68,0.64
+ancient temple,cyber,excited,#E53FB0,229,63,176,0.21,0.22,0.82
+mossy cave,crystal,calm,#ED464C,237,70,76,0.33,0.96,0.93
+ancient temple,lab,focused,#ABC28D,171,194,141,0.88,0.36,0.67
+cyberpunk alley,wood,peaceful,#704CF4,112,76,244,0.33,0.55,0.68
+rainy night market,grassland,excited,#1BDFBE,27,223,190,0.26,0.1,0.71
+crystal cavern,concrete,focused,#0D7F2A,13,127,42,0.11,0.52,0.54
+desert highway,crystal,excited,#7FC7A2,127,199,162,0.73,0.5,0.63
+mossy cave,wood,nostalgic,#E9E79B,233,231,155,0.75,0.17,0.74
+sunrise beach,underground,excited,#E3F423,227,244,35,0.7,0.36,0.51
+dilapidated warehouse,lab,serene,#81149C,129,20,156,0.43,0.46,0.69
+forest shrine,market,nostalgic,#ED262C,237,38,44,0.84,0.49,0.99
+mossy cave,nature,energetic,#3D6756,61,103,86,0.14,0.87,0.94
+foggy mountain trail,garden,focused,#63C360,99,195,96,0.39,0.51,0.88
+quiet meadow,cyber,nostalgic,#D20E02,210,14,2,0.69,0.61,0.59
+neon arcade room,lab,mysterious,#D1C2FF,209,194,255,0.4,0.24,0.84
+dilapidated warehouse,sand,calm,#8013D3,128,19,211,0.82,0.64,0.63
+neon arcade room,wood,dark,#94AE8C,148,174,140,0.17,0.47,0.32
+old library,sand,dark,#6BE777,107,231,119,0.57,0.49,0.7
+underground bunker,stone,mysterious,#4C2020,76,32,32,0.59,0.75,0.41
+desert highway,nature,focused,#01F698,1,246,152,0.12,0.24,0.93
+foggy mountain trail,market,playful,#F272C0,242,114,192,0.1,0.41,0.31
+sunrise beach,rain,happy,#759AA4,117,154,164,0.88,0.82,0.34
+cyberpunk alley,coast,intense,#DBDB07,219,219,7,0.25,0.34,0.51
+desert highway,stone,intense,#235067,35,80,103,0.35,0.99,0.38
+urban rooftop,temple,mysterious,#55435C,85,67,92,0.21,0.52,0.4
+rainy night market,garden,excited,#6D18FF,109,24,255,0.9,0.32,0.39
+futuristic lab,fog/mist,focused,#15319F,21,49,159,0.55,0.11,0.98
+enchanted garden,sand,lonely,#634F31,99,79,49,0.66,0.23,0.85
+mossy cave,cyber,mysterious,#E46A52,228,106,82,0.45,0.39,0.46
+neon arcade room,concrete,focused,#C3AC9C,195,172,156,0.25,0.65,0.85
+forest shrine,artificial-light,peaceful,#83C3C0,131,195,192,0.11,0.81,0.93
+cyberpunk alley,underground,focused,#2F8159,47,129,89,0.6,0.23,0.81
+mossy cave,grassland,focused,#B5B10B,181,177,11,0.66,0.65,0.34
+futuristic lab,temple,happy,#E615B5,230,21,181,0.85,0.7,0.93
+sunrise beach,coast,mysterious,#4C137E,76,19,126,0.11,0.26,1.0
+dilapidated warehouse,market,warm,#62F894,98,248,148,0.25,0.55,0.72
+urban rooftop,artificial-light,happy,#7822A9,120,34,169,0.85,0.29,0.31
+dilapidated warehouse,sand,serene,#8A67AD,138,103,173,0.36,0.52,0.88
+sunrise beach,market,happy,#5E7F01,94,127,1,0.31,0.21,0.87
+abandoned railway,rain,melancholic,#E771F1,231,113,241,0.93,0.56,0.91
+lantern-lit street,metal/rust,peaceful,#FEB0AB,254,176,171,0.3,0.41,0.9
+urban rooftop,grassland,mysterious,#DFCBB5,223,203,181,0.7,0.55,0.37
+forest shrine,market,energetic,#086E18,8,110,24,0.32,0.25,0.87
+dilapidated warehouse,nature,happy,#26A776,38,167,118,0.65,0.92,0.99
+rainy night market,urban,romantic,#627A4B,98,122,75,0.78,0.3,0.64
+quiet meadow,fog/mist,calm,#50FFD7,80,255,215,0.65,0.58,0.89
+desert highway,cave,serene,#38E7DA,56,231,218,0.8,0.9,0.36
+futuristic lab,temple,happy,#255EF1,37,94,241,0.48,0.14,0.85
+lantern-lit street,garden,peaceful,#5244E8,82,68,232,0.56,0.37,0.91
+stormy coastline,concrete,serene,#EC7249,236,114,73,0.66,0.7,0.79
+forest shrine,cyber,dark,#578514,87,133,20,0.65,0.76,0.78
+quiet meadow,urban,nostalgic,#06E04C,6,224,76,0.29,0.33,0.88
+futuristic lab,fog/mist,serene,#7EC690,126,198,144,0.78,0.3,0.37
+mossy cave,cyber,intense,#BB482B,187,72,43,0.61,0.94,0.99
+urban rooftop,fog/mist,intense,#F5603F,245,96,63,0.4,0.34,0.32
+sunrise beach,stone,nostalgic,#4DF25F,77,242,95,0.54,0.76,0.87
+desert highway,metal/rust,intense,#1732C9,23,50,201,0.14,0.8,0.4
+underground bunker,concrete,mysterious,#D406E2,212,6,226,0.89,0.29,0.44
+foggy mountain trail,temple,playful,#6FFB5F,111,251,95,0.19,0.77,0.68
+urban rooftop,rain,excited,#2DD328,45,211,40,0.25,0.86,0.68
+quiet meadow,grassland,mysterious,#B1480D,177,72,13,0.4,0.41,0.51
+neon arcade room,lab,serene,#955EB9,149,94,185,0.27,0.15,0.62
+enchanted garden,metal/rust,nostalgic,#B6835D,182,131,93,0.88,0.67,0.67
+neon arcade room,stone,energetic,#23274E,35,39,78,0.76,0.11,0.97
+foggy mountain trail,artificial-light,lonely,#DE5CCC,222,92,204,0.29,0.28,0.39
+mossy cave,crystal,focused,#C10102,193,1,2,0.62,0.9,0.89
+futuristic lab,rain,nostalgic,#4665A9,70,101,169,0.27,0.14,0.36
+sunrise beach,crystal,serene,#8B9D3F,139,157,63,0.48,0.26,0.54
+crystal cavern,stone,focused,#DFD1C5,223,209,197,0.26,0.36,0.74
+abandoned railway,temple,romantic,#C92E40,201,46,64,0.76,0.68,1.0
+old library,market,dark,#E28D75,226,141,117,0.61,0.37,0.43
+foggy mountain trail,temple,peaceful,#000D2B,0,13,43,0.19,0.51,0.97
+old library,wood,energetic,#D8F6D7,216,246,215,0.8,0.48,0.44
+rainy night market,urban,melancholic,#9C193A,156,25,58,1.0,0.31,0.87
+abandoned railway,cyber,nostalgic,#359388,53,147,136,0.75,0.6,0.85
+foggy mountain trail,temple,playful,#61C091,97,192,145,0.12,0.79,0.67
+mossy cave,urban,peaceful,#2F200F,47,32,15,0.36,0.57,0.53
+enchanted garden,crystal,happy,#3F9E3F,63,158,63,0.52,0.24,0.97
+quiet meadow,artificial-light,happy,#B87694,184,118,148,0.33,0.46,0.36
+abandoned railway,garden,playful,#F6170C,246,23,12,0.11,0.79,0.94
+neon arcade room,wood,mysterious,#BC67B9,188,103,185,0.96,0.64,0.93
+neon arcade room,sand,happy,#ED468D,237,70,141,0.91,0.15,0.53
+stormy coastline,grassland,playful,#6033FB,96,51,251,0.15,0.63,0.92
+abandoned railway,grassland,intense,#BF4DD1,191,77,209,0.71,0.43,0.92
+underground bunker,artificial-light,warm,#714C7A,113,76,122,0.6,0.9,0.71
+ancient temple,rain,intense,#AE73C8,174,115,200,0.13,0.24,0.62
+ancient temple,sand,melancholic,#3C40A0,60,64,160,0.86,0.84,0.7
+ancient temple,market,melancholic,#9B9715,155,151,21,0.57,0.59,0.38
+stormy coastline,cave,intense,#C45A4F,196,90,79,0.72,0.7,0.96
+abandoned railway,grassland,dark,#45A819,69,168,25,0.67,0.6,0.78
+underground bunker,coast,peaceful,#4BB0C2,75,176,194,0.28,0.74,0.91
+sunrise beach,stone,calm,#336118,51,97,24,0.28,0.43,0.57
+neon arcade room,artificial-light,happy,#F45376,244,83,118,0.29,0.36,0.54
+futuristic lab,rain,happy,#59823A,89,130,58,0.41,0.86,0.71
+sunrise beach,grassland,intense,#4E5EF9,78,94,249,0.49,0.75,0.9
+ancient temple,rain,happy,#ACCAA6,172,202,166,0.53,0.5,0.3
+desert highway,garden,warm,#E07E7F,224,126,127,0.82,0.88,0.65
+dilapidated warehouse,concrete,lonely,#CF3A94,207,58,148,0.72,0.41,0.73
+old library,cyber,melancholic,#92026F,146,2,111,0.12,0.35,0.84
+stormy coastline,artificial-light,calm,#FBB797,251,183,151,0.29,0.34,0.4
+cyberpunk alley,artificial-light,peaceful,#217086,33,112,134,0.93,0.33,0.8
+lantern-lit street,temple,lonely,#680C59,104,12,89,0.58,0.9,0.47
+neon arcade room,metal/rust,warm,#55E875,85,232,117,0.79,0.79,0.41
+quiet meadow,nature,warm,#12A8E2,18,168,226,0.13,0.45,0.35
+lantern-lit street,artificial-light,energetic,#BC96FE,188,150,254,0.94,0.73,0.42
+enchanted garden,crystal,warm,#13B855,19,184,85,0.38,0.29,0.6
+dilapidated warehouse,metal/rust,nostalgic,#FC54E9,252,84,233,0.33,0.8,0.55
+mossy cave,sand,nostalgic,#72EF19,114,239,25,0.37,0.41,0.77
+neon arcade room,lab,serene,#DD2A6C,221,42,108,0.82,0.67,0.49
+cyberpunk alley,nature,intense,#20D4B8,32,212,184,0.52,0.22,0.55
+lantern-lit street,stone,warm,#8A3972,138,57,114,0.2,0.28,0.87
+crystal cavern,lab,warm,#5EED2C,94,237,44,0.13,0.57,0.82
+sunrise beach,cave,happy,#9F635C,159,99,92,0.13,0.55,0.75
+underground bunker,fog/mist,dark,#1E0135,30,1,53,0.61,0.91,0.87
+old library,fog/mist,dark,#AA64A8,170,100,168,0.47,0.2,0.67
+mossy cave,concrete,energetic,#08A5AA,8,165,170,0.36,0.78,0.6
+enchanted garden,garden,focused,#CC5367,204,83,103,0.58,0.28,0.51
+cyberpunk alley,market,intense,#F4ADCF,244,173,207,0.36,0.49,0.74
+futuristic lab,metal/rust,calm,#EC4056,236,64,86,0.21,0.27,0.34
+ancient temple,cyber,nostalgic,#9533B7,149,51,183,0.44,0.37,0.55
+foggy mountain trail,grassland,calm,#84B141,132,177,65,0.78,0.73,0.58
+desert highway,temple,energetic,#43B5FE,67,181,254,0.77,0.39,0.83
+ancient temple,nature,excited,#BEDDEF,190,221,239,0.68,0.52,0.3
+desert highway,lab,playful,#FEDA0F,254,218,15,0.71,0.72,0.98
+dilapidated warehouse,fog/mist,melancholic,#988A0F,152,138,15,0.48,0.74,0.38
+dilapidated warehouse,urban,mysterious,#3A2CB8,58,44,184,0.42,0.64,0.72
+lantern-lit street,artificial-light,peaceful,#1DA4D7,29,164,215,0.73,0.47,0.7
+urban rooftop,metal/rust,mysterious,#CF9448,207,148,72,0.42,0.52,0.81
+enchanted garden,grassland,happy,#690CA5,105,12,165,0.13,0.94,0.61
+abandoned railway,lab,playful,#BA4843,186,72,67,0.18,0.72,0.39
+rainy night market,rain,focused,#0CE3E7,12,227,231,0.91,0.4,0.84
+mossy cave,wood,playful,#FF0172,255,1,114,0.77,0.68,0.71
+stormy coastline,lab,serene,#3169AA,49,105,170,0.76,0.51,0.78
+foggy mountain trail,stone,romantic,#CDFB5B,205,251,91,0.94,0.46,0.81
+cyberpunk alley,nature,calm,#6AE5CD,106,229,205,0.42,0.67,0.44
+cyberpunk alley,concrete,mysterious,#36E922,54,233,34,0.75,0.63,0.61
+quiet meadow,lab,nostalgic,#866C76,134,108,118,0.88,0.68,0.34
+rainy night market,market,playful,#A1C00A,161,192,10,0.19,0.49,0.87
+futuristic lab,metal/rust,focused,#BDF450,189,244,80,0.26,0.11,0.87
+quiet meadow,garden,energetic,#0EC7A9,14,199,169,0.9,0.84,0.67
+neon arcade room,artificial-light,intense,#219F77,33,159,119,0.51,0.51,0.63
+mossy cave,cave,lonely,#DFA7D2,223,167,210,0.92,0.39,0.84
+old library,lab,romantic,#17F560,23,245,96,0.2,0.66,0.47
+desert highway,stone,dark,#E50C0E,229,12,14,0.52,0.87,0.67
+dilapidated warehouse,wood,happy,#495B01,73,91,1,0.98,0.38,0.57
+enchanted garden,cyber,melancholic,#540075,84,0,117,0.69,0.1,0.32
+ancient temple,rain,happy,#58EEC1,88,238,193,0.32,0.56,0.46
+desert highway,coast,serene,#A8F115,168,241,21,0.83,0.68,0.69
+futuristic lab,stone,mysterious,#3E95AE,62,149,174,0.64,0.38,0.57
+abandoned railway,stone,peaceful,#9D413E,157,65,62,0.86,0.5,0.62
+enchanted garden,stone,happy,#AC9C60,172,156,96,0.65,0.72,0.69
+desert highway,urban,happy,#0B9FBD,11,159,189,0.72,0.48,0.89
+crystal cavern,market,focused,#FF4C08,255,76,8,0.89,0.83,0.82
+desert highway,metal/rust,lonely,#F798EE,247,152,238,0.88,0.29,0.57
+sunrise beach,underground,calm,#CD1D97,205,29,151,0.21,0.9,0.33
+mossy cave,crystal,focused,#AC76E3,172,118,227,0.22,0.83,0.86
+lantern-lit street,artificial-light,calm,#E4E23B,228,226,59,0.81,0.16,0.84
+abandoned railway,lab,warm,#4DD608,77,214,8,0.43,0.3,0.73
+cyberpunk alley,crystal,warm,#435B07,67,91,7,0.72,0.16,0.44
+stormy coastline,garden,energetic,#A8C722,168,199,34,0.34,0.44,0.35
+abandoned railway,coast,dark,#44BE9A,68,190,154,0.99,0.26,0.31
+lantern-lit street,concrete,nostalgic,#14C62B,20,198,43,0.12,0.22,0.72
+urban rooftop,sand,serene,#6E8904,110,137,4,0.97,0.11,0.31
+crystal cavern,cave,melancholic,#C0BD75,192,189,117,0.36,0.23,0.35
+crystal cavern,cyber,focused,#EA7C00,234,124,0,0.88,0.51,0.94
+forest shrine,nature,romantic,#4C4359,76,67,89,0.49,0.44,0.81
+sunrise beach,temple,nostalgic,#2D7746,45,119,70,0.47,0.88,0.81
+cyberpunk alley,cave,happy,#194B45,25,75,69,0.63,0.98,0.86
+old library,cave,happy,#6B4809,107,72,9,0.29,0.74,0.76
+crystal cavern,fog/mist,excited,#6E4758,110,71,88,0.95,0.11,0.67
+desert highway,stone,romantic,#82A26E,130,162,110,0.23,0.65,0.77
+cyberpunk alley,artificial-light,lonely,#B80312,184,3,18,0.36,0.32,0.55
+quiet meadow,urban,excited,#E19377,225,147,119,0.74,0.57,0.45
+crystal cavern,market,excited,#46E11C,70,225,28,0.99,0.97,0.53
+old library,lab,intense,#1A6B6B,26,107,107,0.35,0.19,0.96
+cyberpunk alley,nature,warm,#4C22D2,76,34,210,0.46,0.73,0.88
+rainy night market,metal/rust,focused,#B64786,182,71,134,0.35,0.69,0.97
+lantern-lit street,artificial-light,warm,#2F993D,47,153,61,0.96,0.63,0.68
+neon arcade room,artificial-light,mysterious,#3D3005,61,48,5,0.56,0.62,0.32
+urban rooftop,fog/mist,excited,#E81126,232,17,38,0.46,0.73,0.6
+quiet meadow,temple,playful,#3F625B,63,98,91,0.49,0.27,0.63
+stormy coastline,concrete,peaceful,#C15ABD,193,90,189,0.68,0.84,0.84
+foggy mountain trail,fog/mist,warm,#F235BD,242,53,189,0.31,0.42,0.98
+sunrise beach,coast,warm,#22BC31,34,188,49,0.73,0.41,0.56
+urban rooftop,artificial-light,dark,#E8AEB0,232,174,176,0.99,0.57,0.97
+sunrise beach,metal/rust,serene,#60AD0C,96,173,12,0.75,0.97,0.87
+cyberpunk alley,rain,energetic,#D45FA5,212,95,165,0.87,0.53,0.58
+lantern-lit street,garden,calm,#4AE3F7,74,227,247,0.44,0.88,0.35
+underground bunker,metal/rust,intense,#01334E,1,51,78,0.51,0.29,0.42
+enchanted garden,garden,romantic,#CD3B8A,205,59,138,0.43,0.4,0.5
+neon arcade room,rain,melancholic,#68D9E3,104,217,227,0.89,0.48,0.85
+abandoned railway,nature,mysterious,#2C2501,44,37,1,0.57,0.79,0.44
+underground bunker,metal/rust,focused,#6EADAE,110,173,174,0.22,0.7,0.78
+underground bunker,urban,nostalgic,#01B974,1,185,116,0.96,0.85,0.96
+underground bunker,urban,peaceful,#22B89E,34,184,158,0.81,0.3,0.68
+abandoned railway,wood,energetic,#24FC8F,36,252,143,0.82,0.94,0.76
+cyberpunk alley,sand,energetic,#27D603,39,214,3,0.87,0.74,0.94
+rainy night market,cave,excited,#66C31A,102,195,26,0.93,0.57,0.61
+desert highway,garden,romantic,#94FD07,148,253,7,0.59,0.14,0.51
+neon arcade room,underground,happy,#809FBB,128,159,187,0.89,0.9,0.95
+old library,market,melancholic,#0CE9C4,12,233,196,0.76,0.62,0.56
+stormy coastline,rain,melancholic,#4006F7,64,6,247,0.36,0.89,0.51
+mossy cave,artificial-light,melancholic,#7736C4,119,54,196,0.31,0.1,0.75
+futuristic lab,wood,lonely,#931B5B,147,27,91,0.65,0.16,0.79
+forest shrine,stone,romantic,#2A81D7,42,129,215,0.65,0.14,0.53
+foggy mountain trail,market,intense,#9C9FB2,156,159,178,0.47,0.48,0.92
+enchanted garden,artificial-light,lonely,#B66D3F,182,109,63,0.75,0.13,0.62
+old library,coast,nostalgic,#E1E374,225,227,116,0.41,0.98,0.53
+enchanted garden,market,peaceful,#5B8312,91,131,18,0.22,0.26,0.83
+rainy night market,underground,nostalgic,#188E40,24,142,64,0.96,0.4,0.97
+crystal cavern,lab,happy,#43341F,67,52,31,0.18,0.94,0.63
+ancient temple,grassland,nostalgic,#0E1208,14,18,8,0.19,0.65,0.99
+dilapidated warehouse,market,peaceful,#1648E5,22,72,229,0.86,0.32,0.82
+urban rooftop,rain,warm,#C7C589,199,197,137,0.19,0.98,0.31
+old library,stone,intense,#F96F70,249,111,112,0.33,0.45,0.93
+forest shrine,garden,intense,#A3F618,163,246,24,0.67,0.2,0.35
+urban rooftop,temple,playful,#BB32BE,187,50,190,0.22,0.75,0.5
+ancient temple,cyber,focused,#9D01F5,157,1,245,0.26,0.24,0.7
+quiet meadow,lab,happy,#DBD4A2,219,212,162,0.73,0.32,0.51
+old library,temple,happy,#57425B,87,66,91,0.66,0.91,0.79
+lantern-lit street,urban,dark,#52C655,82,198,85,0.96,0.76,0.41
+crystal cavern,fog/mist,melancholic,#0F8FD6,15,143,214,0.46,0.15,0.39
+ancient temple,crystal,mysterious,#293AFD,41,58,253,0.48,0.1,0.47
+ancient temple,sand,nostalgic,#78809A,120,128,154,0.72,0.75,0.36
+forest shrine,stone,energetic,#B7DC58,183,220,88,0.84,0.61,0.52
+lantern-lit street,concrete,peaceful,#C57AE6,197,122,230,0.33,0.33,0.82
+sunrise beach,metal/rust,warm,#51567D,81,86,125,0.85,0.97,0.48
+stormy coastline,cyber,calm,#331EB0,51,30,176,0.81,0.4,0.77
+quiet meadow,garden,excited,#F75CB7,247,92,183,0.36,0.78,0.43
+old library,urban,playful,#E657AF,230,87,175,0.39,0.39,0.68
+urban rooftop,fog/mist,excited,#FEFB18,254,251,24,0.81,0.9,0.38
+cyberpunk alley,crystal,energetic,#1CC2A9,28,194,169,0.45,0.56,0.91
+rainy night market,artificial-light,excited,#24D2EA,36,210,234,0.21,0.85,0.76
+futuristic lab,artificial-light,lonely,#8D20E3,141,32,227,0.76,0.78,0.62
+dilapidated warehouse,grassland,calm,#5A253C,90,37,60,0.65,0.46,0.4
+quiet meadow,urban,romantic,#E5F10A,229,241,10,0.37,0.69,0.58
+rainy night market,lab,energetic,#4AEA5C,74,234,92,0.63,0.52,0.79
+stormy coastline,lab,excited,#9CAB8F,156,171,143,0.75,0.99,0.49
+enchanted garden,stone,excited,#7119E9,113,25,233,0.96,0.23,0.4
+neon arcade room,sand,lonely,#FC65CE,252,101,206,0.72,0.25,0.36
+old library,underground,nostalgic,#49F002,73,240,2,0.87,0.61,0.96
+quiet meadow,fog/mist,romantic,#A29C4D,162,156,77,0.34,0.67,0.97
+sunrise beach,concrete,intense,#18579A,24,87,154,0.34,0.56,0.52
+ancient temple,garden,dark,#270F4E,39,15,78,0.69,0.22,0.73
+foggy mountain trail,nature,mysterious,#8ACC01,138,204,1,0.96,0.27,0.93
+forest shrine,sand,happy,#84FF5E,132,255,94,0.9,0.46,0.55
+stormy coastline,temple,happy,#034838,3,72,56,0.23,0.58,0.43
+ancient temple,sand,dark,#F562E8,245,98,232,0.89,0.18,0.76
+desert highway,coast,mysterious,#3544A5,53,68,165,0.18,0.93,0.32
+desert highway,concrete,nostalgic,#141F15,20,31,21,0.86,0.16,0.58
+futuristic lab,urban,excited,#1B52FE,27,82,254,0.74,0.87,0.45
+cyberpunk alley,temple,warm,#7D6133,125,97,51,0.55,0.34,0.51
+old library,lab,lonely,#F28230,242,130,48,0.53,0.6,0.97
+abandoned railway,rain,melancholic,#7AAE39,122,174,57,0.36,0.29,0.93
+futuristic lab,garden,energetic,#FD375B,253,55,91,0.48,0.5,0.63
+cyberpunk alley,fog/mist,warm,#09F81F,9,248,31,0.35,0.79,0.6
+stormy coastline,urban,melancholic,#1A1442,26,20,66,0.12,0.86,0.86
+mossy cave,crystal,serene,#9E83ED,158,131,237,0.78,0.45,0.34
+dilapidated warehouse,metal/rust,warm,#97C193,151,193,147,0.43,0.64,0.49
+quiet meadow,market,calm,#CF272D,207,39,45,0.3,0.57,0.76
+rainy night market,metal/rust,warm,#956201,149,98,1,0.2,0.27,0.58
+desert highway,underground,lonely,#D20CF2,210,12,242,0.89,0.85,0.88
+mossy cave,rain,excited,#E01DA5,224,29,165,0.72,0.6,0.54
+rainy night market,cave,excited,#6DABBB,109,171,187,0.82,0.13,0.84
+crystal cavern,stone,intense,#AB7718,171,119,24,0.62,0.74,0.87
+neon arcade room,stone,mysterious,#909ABA,144,154,186,0.35,0.14,0.82
+cyberpunk alley,artificial-light,energetic,#D87F6D,216,127,109,0.53,0.11,0.62
+futuristic lab,lab,warm,#987105,152,113,5,0.58,0.55,0.52
+abandoned railway,coast,peaceful,#4A90FB,74,144,251,0.39,0.4,0.66
+crystal cavern,market,lonely,#6453A3,100,83,163,0.34,0.81,0.82
+sunrise beach,concrete,happy,#D33BB3,211,59,179,0.12,0.35,0.62
+abandoned railway,underground,nostalgic,#7103E2,113,3,226,0.3,0.6,0.38
+old library,metal/rust,warm,#F60055,246,0,85,1.0,0.71,0.45
+crystal cavern,coast,melancholic,#988E2D,152,142,45,0.35,0.71,0.92
+desert highway,wood,serene,#426FF6,66,111,246,0.58,0.87,0.77
+old library,garden,romantic,#6A071E,106,7,30,0.56,0.61,0.85
+cyberpunk alley,underground,calm,#591E1D,89,30,29,0.23,0.2,0.63
+enchanted garden,sand,mysterious,#786EC7,120,110,199,0.94,0.43,0.88
+lantern-lit street,rain,warm,#E71A5D,231,26,93,0.58,0.55,0.69
+desert highway,nature,lonely,#902DC9,144,45,201,0.29,0.21,0.49
+underground bunker,fog/mist,melancholic,#98C434,152,196,52,0.96,0.75,0.95
+lantern-lit street,rain,excited,#B1B9D7,177,185,215,0.95,0.87,0.82
+lantern-lit street,concrete,romantic,#AD201D,173,32,29,0.43,0.97,0.47
+cyberpunk alley,coast,mysterious,#1FC536,31,197,54,0.45,0.53,0.63
+enchanted garden,grassland,dark,#2CFE20,44,254,32,0.5,0.73,0.99
+crystal cavern,concrete,calm,#D9554F,217,85,79,0.14,0.41,0.42
+crystal cavern,wood,melancholic,#BA2983,186,41,131,0.14,0.87,0.88
+forest shrine,concrete,playful,#10E891,16,232,145,0.4,0.24,0.34
+old library,rain,happy,#249D1F,36,157,31,0.83,0.96,0.63
+futuristic lab,urban,focused,#178511,23,133,17,0.13,0.88,0.79
+futuristic lab,temple,happy,#E77395,231,115,149,0.59,0.34,0.57
+mossy cave,crystal,intense,#6CF492,108,244,146,0.89,0.62,0.47
+urban rooftop,coast,serene,#EE3508,238,53,8,0.9,0.74,0.62
+mossy cave,cyber,warm,#147ECB,20,126,203,0.99,0.4,0.93
+desert highway,underground,excited,#4C606F,76,96,111,0.81,0.28,0.44
+forest shrine,garden,peaceful,#B34339,179,67,57,0.54,0.35,0.89
+cyberpunk alley,metal/rust,warm,#1BDFF4,27,223,244,0.66,0.37,0.55
+lantern-lit street,rain,mysterious,#C1B20A,193,178,10,0.15,0.65,0.97
+abandoned railway,crystal,nostalgic,#C11A49,193,26,73,0.74,0.61,0.89
+cyberpunk alley,artificial-light,calm,#65DDCD,101,221,205,0.86,0.26,0.64
+futuristic lab,wood,melancholic,#0F8F52,15,143,82,0.39,0.67,0.92
+sunrise beach,fog/mist,dark,#056758,5,103,88,0.54,0.5,0.81
+enchanted garden,rain,happy,#5AC878,90,200,120,0.21,0.98,0.68
+neon arcade room,sand,mysterious,#E2B9A9,226,185,169,0.8,0.54,0.57
+stormy coastline,crystal,warm,#A509CF,165,9,207,0.44,0.42,0.65
+neon arcade room,grassland,playful,#BCDE3D,188,222,61,0.18,0.48,0.65
+neon arcade room,cave,intense,#B25A14,178,90,20,0.64,0.87,0.78
+lantern-lit street,sand,playful,#C5924B,197,146,75,0.38,0.87,0.77
+futuristic lab,concrete,energetic,#3AF98A,58,249,138,0.81,0.65,0.86
+stormy coastline,crystal,melancholic,#F64B93,246,75,147,0.12,0.52,0.31
+cyberpunk alley,sand,romantic,#933266,147,50,102,0.8,0.79,0.83
+quiet meadow,metal/rust,intense,#8A4E1D,138,78,29,0.12,0.2,0.31
+sunrise beach,cave,happy,#80F700,128,247,0,0.49,0.17,0.5
+cyberpunk alley,crystal,nostalgic,#632A9E,99,42,158,0.83,0.73,0.52
+old library,artificial-light,playful,#03EDE7,3,237,231,0.13,0.29,0.71
+sunrise beach,fog/mist,romantic,#67AC0D,103,172,13,0.29,0.34,0.92
+quiet meadow,stone,playful,#1DBFFB,29,191,251,0.76,0.7,0.68
+desert highway,grassland,playful,#8EA7E6,142,167,230,0.81,0.7,0.6
+ancient temple,crystal,serene,#D2872A,210,135,42,0.84,0.63,0.91
+lantern-lit street,fog/mist,dark,#6A44E8,106,68,232,0.51,0.13,0.98
+lantern-lit street,crystal,lonely,#EEF591,238,245,145,0.75,0.26,0.94
+urban rooftop,stone,peaceful,#497041,73,112,65,0.45,0.61,0.31
+quiet meadow,temple,serene,#1819E8,24,25,232,0.91,0.38,0.75
+rainy night market,stone,warm,#3D2237,61,34,55,0.41,0.38,0.53
+lantern-lit street,grassland,romantic,#3C4487,60,68,135,0.38,0.7,0.99
+crystal cavern,nature,lonely,#C9A15E,201,161,94,0.88,1.0,0.92
+cyberpunk alley,market,intense,#4537C7,69,55,199,0.65,0.88,0.78
+cyberpunk alley,fog/mist,dark,#B158EF,177,88,239,0.48,0.75,0.9
+old library,market,excited,#C18137,193,129,55,0.48,0.81,0.79
+stormy coastline,lab,dark,#A0C093,160,192,147,0.26,0.93,0.34
+forest shrine,temple,warm,#C8D110,200,209,16,0.16,0.51,0.93
+old library,crystal,calm,#665A49,102,90,73,0.19,0.6,0.54
+neon arcade room,cave,mysterious,#C33AEB,195,58,235,0.7,0.22,0.53
+rainy night market,cyber,melancholic,#CE7226,206,114,38,0.62,0.89,0.76
+cyberpunk alley,nature,dark,#38514C,56,81,76,0.17,0.53,1.0
+cyberpunk alley,underground,lonely,#4EDA03,78,218,3,0.86,0.5,0.98
+neon arcade room,nature,melancholic,#604419,96,68,25,0.82,0.51,0.59
+stormy coastline,market,playful,#FB7ABF,251,122,191,0.47,0.81,0.96
+dilapidated warehouse,nature,serene,#444EC7,68,78,199,0.16,0.95,0.48
+dilapidated warehouse,crystal,mysterious,#18C93A,24,201,58,0.46,0.29,0.82
+urban rooftop,lab,romantic,#489949,72,153,73,0.39,0.3,0.74
+foggy mountain trail,sand,lonely,#A7249D,167,36,157,0.52,0.64,0.93
+futuristic lab,temple,calm,#236AD3,35,106,211,0.32,0.73,0.75
+crystal cavern,rain,calm,#DDA681,221,166,129,0.78,0.67,0.87
+futuristic lab,urban,nostalgic,#61FBD6,97,251,214,0.82,0.17,0.64
+cyberpunk alley,urban,dark,#08BA34,8,186,52,0.38,0.94,0.68
+sunrise beach,crystal,melancholic,#1FFC6B,31,252,107,0.14,0.19,0.55
+neon arcade room,market,romantic,#764EA8,118,78,168,0.89,0.3,0.54
+neon arcade room,underground,romantic,#D886F1,216,134,241,0.45,0.29,0.85
+forest shrine,urban,dark,#2F6C3F,47,108,63,0.44,0.12,0.52
+futuristic lab,temple,energetic,#5E8B7E,94,139,126,0.1,0.21,0.69
+futuristic lab,concrete,energetic,#699FD6,105,159,214,0.48,0.73,0.32
+futuristic lab,nature,calm,#82627B,130,98,123,0.87,0.74,0.47
+sunrise beach,market,serene,#9F0FD2,159,15,210,0.28,0.32,0.6
+enchanted garden,temple,romantic,#8678DD,134,120,221,0.93,0.21,0.86
+forest shrine,underground,intense,#79E546,121,229,70,0.82,0.97,0.47
+underground bunker,crystal,intense,#B03CC4,176,60,196,0.77,0.98,0.94
+rainy night market,nature,serene,#539C16,83,156,22,0.83,0.89,0.72
+lantern-lit street,market,romantic,#A86A12,168,106,18,0.43,0.41,0.77
+foggy mountain trail,rain,warm,#4ABF61,74,191,97,0.87,0.96,0.93
+underground bunker,underground,melancholic,#D947AF,217,71,175,0.59,0.6,0.35
+crystal cavern,metal/rust,happy,#30E501,48,229,1,0.89,0.53,0.4
+lantern-lit street,grassland,peaceful,#ECCA5F,236,202,95,0.88,0.73,0.98
+rainy night market,crystal,focused,#80015F,128,1,95,0.75,0.65,0.56
+futuristic lab,artificial-light,excited,#99F742,153,247,66,0.89,0.75,0.78
+crystal cavern,coast,romantic,#C5A9F0,197,169,240,0.39,0.22,0.48
+rainy night market,garden,excited,#0A8E8D,10,142,141,0.48,0.78,0.32
+sunrise beach,nature,calm,#BDEA13,189,234,19,0.54,0.3,0.88
+abandoned railway,coast,excited,#1508A5,21,8,165,0.2,0.21,0.68
+forest shrine,rain,serene,#382B79,56,43,121,0.78,0.63,0.48
+desert highway,concrete,melancholic,#E11EF2,225,30,242,0.88,0.8,0.92
+neon arcade room,coast,lonely,#4162DE,65,98,222,0.12,0.78,0.4
+ancient temple,lab,peaceful,#D126D4,209,38,212,0.56,0.81,0.83
+urban rooftop,nature,warm,#C69803,198,152,3,0.75,0.53,0.47
+old library,concrete,focused,#16C68E,22,198,142,0.3,0.65,0.76
+crystal cavern,fog/mist,serene,#5621BA,86,33,186,0.68,0.34,0.87
+underground bunker,cyber,peaceful,#C7EB3C,199,235,60,0.36,0.58,0.33
+lantern-lit street,grassland,peaceful,#F9F7B6,249,247,182,0.9,0.73,0.67
+cyberpunk alley,lab,excited,#C71E4D,199,30,77,0.49,0.3,0.97
+abandoned railway,market,romantic,#A2F979,162,249,121,0.13,0.53,0.74
+abandoned railway,nature,nostalgic,#BD4AB1,189,74,177,0.19,0.34,0.41
+mossy cave,urban,energetic,#19EF15,25,239,21,0.61,0.37,0.46
+foggy mountain trail,sand,peaceful,#E7F6BE,231,246,190,0.23,0.45,0.56
+ancient temple,artificial-light,excited,#B3CD16,179,205,22,0.94,0.52,0.7
+lantern-lit street,fog/mist,lonely,#527790,82,119,144,0.14,0.68,0.54
+sunrise beach,cave,romantic,#0A59B2,10,89,178,0.24,0.95,0.74
+old library,concrete,melancholic,#CE02B5,206,2,181,0.83,0.63,0.61
+futuristic lab,underground,happy,#2EA654,46,166,84,0.24,0.19,0.31
+lantern-lit street,coast,playful,#7F49A8,127,73,168,0.68,0.33,0.66
+old library,metal/rust,excited,#E89BC6,232,155,198,0.92,0.75,0.53
+sunrise beach,wood,melancholic,#B473EA,180,115,234,0.11,0.68,0.57
+cyberpunk alley,nature,mysterious,#79682B,121,104,43,0.93,0.11,0.35
+old library,coast,serene,#9D8554,157,133,84,0.11,0.41,0.63
+lantern-lit street,wood,peaceful,#37A2F6,55,162,246,0.36,0.97,0.62
+ancient temple,cyber,warm,#44EC04,68,236,4,0.44,0.76,0.76
+stormy coastline,metal/rust,mysterious,#FB6C7E,251,108,126,0.8,0.37,0.43
+urban rooftop,stone,calm,#0E6F66,14,111,102,0.43,0.63,0.87
+neon arcade room,metal/rust,melancholic,#EFC828,239,200,40,0.1,0.48,0.82
+ancient temple,wood,nostalgic,#C0EEFE,192,238,254,1.0,0.14,0.5
+stormy coastline,metal/rust,romantic,#AB7E47,171,126,71,0.21,0.72,0.37
+cyberpunk alley,lab,excited,#75632D,117,99,45,0.11,0.24,0.5
+rainy night market,grassland,mysterious,#C48743,196,135,67,0.84,0.34,0.86
+mossy cave,concrete,melancholic,#6E57DA,110,87,218,0.7,0.82,0.59
+forest shrine,underground,mysterious,#ABD915,171,217,21,0.15,0.66,0.72
+mossy cave,market,calm,#A29B7E,162,155,126,0.83,0.87,0.69
+underground bunker,wood,mysterious,#99B8B2,153,184,178,0.47,0.4,0.34
+rainy night market,market,energetic,#9DF81C,157,248,28,0.14,0.42,0.55
+lantern-lit street,sand,happy,#9EE572,158,229,114,0.24,0.53,0.88
+neon arcade room,grassland,dark,#DA76C3,218,118,195,0.42,0.28,0.93
+mossy cave,underground,serene,#CD3BAE,205,59,174,0.38,0.75,0.6
+abandoned railway,crystal,dark,#5AE2CC,90,226,204,0.54,0.2,0.51
+underground bunker,stone,serene,#2C7744,44,119,68,0.59,0.76,0.91
+ancient temple,grassland,calm,#B29F16,178,159,22,0.92,0.92,0.57
+desert highway,grassland,playful,#BA8C36,186,140,54,0.47,0.51,0.72
+dilapidated warehouse,underground,calm,#626E70,98,110,112,0.63,0.4,0.37
+forest shrine,underground,romantic,#AF1BA1,175,27,161,0.27,0.97,0.66
+stormy coastline,rain,happy,#A862A2,168,98,162,0.91,0.15,0.37
+forest shrine,metal/rust,lonely,#AC08E6,172,8,230,0.46,0.43,1.0
+stormy coastline,wood,lonely,#BC534E,188,83,78,0.21,0.29,0.68
+forest shrine,cyber,happy,#6141F9,97,65,249,0.26,0.14,0.48
+forest shrine,artificial-light,happy,#E0E69A,224,230,154,0.9,0.87,0.43
+forest shrine,underground,calm,#35511F,53,81,31,0.41,0.82,0.81
+quiet meadow,urban,excited,#79F0EB,121,240,235,0.58,0.98,0.86
+mossy cave,artificial-light,energetic,#7FFC21,127,252,33,0.94,0.67,0.45
+forest shrine,fog/mist,peaceful,#BDE74E,189,231,78,0.87,0.52,0.4
+cyberpunk alley,sand,serene,#96F403,150,244,3,0.9,0.53,0.72
+dilapidated warehouse,fog/mist,excited,#5E8618,94,134,24,0.11,0.77,0.36
+dilapidated warehouse,coast,serene,#4ED329,78,211,41,0.64,0.63,0.79
+stormy coastline,metal/rust,happy,#798271,121,130,113,0.89,0.96,0.54
+stormy coastline,temple,melancholic,#18C904,24,201,4,0.15,0.56,0.7
+stormy coastline,cave,mysterious,#545B6C,84,91,108,0.74,0.52,0.32
+forest shrine,rain,dark,#1C0A0A,28,10,10,0.71,0.96,0.95
+desert highway,wood,excited,#F782FF,247,130,255,0.68,0.31,0.97
+underground bunker,cyber,peaceful,#048312,4,131,18,0.57,0.84,0.89
+sunrise beach,artificial-light,calm,#53AC87,83,172,135,0.19,0.28,0.83
+futuristic lab,stone,warm,#87D53D,135,213,61,0.82,0.73,0.81
+stormy coastline,sand,happy,#BEF593,190,245,147,0.54,0.54,0.9
+mossy cave,garden,dark,#66C8ED,102,200,237,0.57,0.51,0.61
+cyberpunk alley,sand,warm,#C541B4,197,65,180,0.3,0.87,0.58
+ancient temple,coast,intense,#B6DA1A,182,218,26,0.98,0.85,0.69
+futuristic lab,urban,intense,#2E6EC0,46,110,192,0.11,0.87,0.61
+ancient temple,stone,intense,#51777F,81,119,127,0.34,0.83,0.7
+underground bunker,cave,mysterious,#3D55CE,61,85,206,0.35,0.63,0.9
+urban rooftop,grassland,focused,#5CDCF4,92,220,244,0.21,0.41,0.5
+stormy coastline,metal/rust,focused,#4D15CB,77,21,203,0.3,0.89,0.41
+rainy night market,artificial-light,excited,#DE2239,222,34,57,0.99,0.57,0.77
+underground bunker,rain,peaceful,#B34EED,179,78,237,0.74,0.43,0.51
+quiet meadow,market,calm,#2A724F,42,114,79,0.65,0.63,0.38

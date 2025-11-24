@@ -1,0 +1,501 @@
+color_name,hex,rgb,culture,meaning,context
+White,#FFFFFF,"(255,255,255)",Mexican,peace,dance costumes
+Blue,#0000FF,"(0,0,255)",Turkish,power,national symbolism
+Orange,#FFA500,"(255,165,0)",Spanish,purity,national symbolism
+Magenta,#FF00FF,"(255,0,255)",Mexican,prosperity,national symbolism
+White,#FFFFFF,"(255,255,255)",Russian,love,seasonal rituals
+Black,#000000,"(0,0,0)",Italian,rebirth,funerals
+Brown,#8B4513,"(139,69,19)",Greek,friendship,religious ceremonies
+Red,#FF0000,"(255,0,0)",Spanish,mourning,seasonal rituals
+Gold,#FFD700,"(255,215,0)",Indian,mourning,seasonal rituals
+Gold,#FFD700,"(255,215,0)",Brazilian,luck,festivals
+Purple,#800080,"(128,0,128)",Russian,honor,national symbolism
+Pink,#FFC0CB,"(255,192,203)",Mexican,courage,funerals
+Brown,#8B4513,"(139,69,19)",Western,courage,dance costumes
+Black,#000000,"(0,0,0)",Egyptian,peace,national symbolism
+Purple,#800080,"(128,0,128)",Japanese,power,dance costumes
+Blue,#0000FF,"(0,0,255)",Western,spirituality,festivals
+Yellow,#FFFF00,"(255,255,0)",Persian,rebirth,art
+Gold,#FFD700,"(255,215,0)",French,honor,religious ceremonies
+Purple,#800080,"(128,0,128)",Western,danger,funerals
+Grey,#808080,"(128,128,128)",Chinese,celebration,weddings
+Gold,#FFD700,"(255,215,0)",Greek,courage,art
+Magenta,#FF00FF,"(255,0,255)",Greek,harmony,funerals
+Cyan,#00FFFF,"(0,255,255)",Egyptian,creativity,dance costumes
+Red,#FF0000,"(255,0,0)",Brazilian,mourning,national symbolism
+Blue,#0000FF,"(0,0,255)",Russian,mourning,festivals
+Pink,#FFC0CB,"(255,192,203)",Arabic,harmony,funerals
+Magenta,#FF00FF,"(255,0,255)",French,wealth,traditional dress
+Silver,#C0C0C0,"(192,192,192)",Thai,prosperity,religious ceremonies
+Cyan,#00FFFF,"(0,255,255)",Thai,courage,dance costumes
+Purple,#800080,"(128,0,128)",Chinese,danger,art
+Green,#00FF00,"(0,255,0)",Persian,power,art
+Cyan,#00FFFF,"(0,255,255)",Persian,danger,funerals
+Silver,#C0C0C0,"(192,192,192)",Thai,rebirth,weddings
+Cyan,#00FFFF,"(0,255,255)",Western,harmony,art
+Purple,#800080,"(128,0,128)",Japanese,prosperity,funerals
+Orange,#FFA500,"(255,165,0)",Indonesian,honor,traditional dress
+Brown,#8B4513,"(139,69,19)",Western,courage,dance costumes
+Gold,#FFD700,"(255,215,0)",Greek,spirituality,festivals
+Gold,#FFD700,"(255,215,0)",African,mourning,art
+Gold,#FFD700,"(255,215,0)",German,friendship,weddings
+Green,#00FF00,"(0,255,0)",Western,fertility,weddings
+Green,#00FF00,"(0,255,0)",German,creativity,festivals
+Green,#00FF00,"(0,255,0)",Brazilian,victory,funerals
+Pink,#FFC0CB,"(255,192,203)",Indonesian,royalty,weddings
+Red,#FF0000,"(255,0,0)",Mexican,spirituality,seasonal rituals
+Silver,#C0C0C0,"(192,192,192)",Indian,harmony,traditional dress
+Gold,#FFD700,"(255,215,0)",Indian,mourning,dance costumes
+Red,#FF0000,"(255,0,0)",Western,victory,national symbolism
+Purple,#800080,"(128,0,128)",Chinese,purity,traditional dress
+Grey,#808080,"(128,128,128)",Brazilian,prosperity,art
+Orange,#FFA500,"(255,165,0)",Chinese,courage,national symbolism
+Yellow,#FFFF00,"(255,255,0)",Korean,creativity,dance costumes
+Yellow,#FFFF00,"(255,255,0)",Indian,honor,art
+Cyan,#00FFFF,"(0,255,255)",Indonesian,harmony,funerals
+Gold,#FFD700,"(255,215,0)",Greek,purity,architecture
+Green,#00FF00,"(0,255,0)",Turkish,friendship,seasonal rituals
+Gold,#FFD700,"(255,215,0)",Mexican,danger,architecture
+Blue,#0000FF,"(0,0,255)",Western,courage,traditional dress
+Silver,#C0C0C0,"(192,192,192)",Korean,honor,national symbolism
+Black,#000000,"(0,0,0)",Indonesian,wealth,national symbolism
+White,#FFFFFF,"(255,255,255)",Thai,danger,funerals
+Red,#FF0000,"(255,0,0)",Korean,friendship,weddings
+Pink,#FFC0CB,"(255,192,203)",Indonesian,celebration,festivals
+Yellow,#FFFF00,"(255,255,0)",Spanish,love,national symbolism
+White,#FFFFFF,"(255,255,255)",African,purity,architecture
+Magenta,#FF00FF,"(255,0,255)",Brazilian,honor,festivals
+Red,#FF0000,"(255,0,0)",Brazilian,rebirth,dance costumes
+Yellow,#FFFF00,"(255,255,0)",Greek,love,seasonal rituals
+Gold,#FFD700,"(255,215,0)",Thai,mourning,national symbolism
+Silver,#C0C0C0,"(192,192,192)",Italian,creativity,funerals
+Grey,#808080,"(128,128,128)",Russian,danger,art
+Black,#000000,"(0,0,0)",Spanish,danger,seasonal rituals
+Grey,#808080,"(128,128,128)",German,love,weddings
+Grey,#808080,"(128,128,128)",Italian,purity,weddings
+Silver,#C0C0C0,"(192,192,192)",Egyptian,wealth,funerals
+Magenta,#FF00FF,"(255,0,255)",Mexican,friendship,national symbolism
+Purple,#800080,"(128,0,128)",Chinese,power,dance costumes
+Pink,#FFC0CB,"(255,192,203)",Western,royalty,dance costumes
+Orange,#FFA500,"(255,165,0)",Thai,power,national symbolism
+Gold,#FFD700,"(255,215,0)",Japanese,courage,weddings
+Grey,#808080,"(128,128,128)",Western,purity,art
+Magenta,#FF00FF,"(255,0,255)",Turkish,luck,art
+Blue,#0000FF,"(0,0,255)",Spanish,honor,seasonal rituals
+Black,#000000,"(0,0,0)",Korean,celebration,weddings
+Gold,#FFD700,"(255,215,0)",Chinese,friendship,seasonal rituals
+Blue,#0000FF,"(0,0,255)",Indian,creativity,weddings
+Cyan,#00FFFF,"(0,255,255)",Turkish,power,religious ceremonies
+Red,#FF0000,"(255,0,0)",Indonesian,spirituality,religious ceremonies
+Purple,#800080,"(128,0,128)",French,friendship,architecture
+Green,#00FF00,"(0,255,0)",African,peace,funerals
+Yellow,#FFFF00,"(255,255,0)",Greek,danger,traditional dress
+Grey,#808080,"(128,128,128)",Turkish,danger,festivals
+White,#FFFFFF,"(255,255,255)",Indian,prosperity,architecture
+Silver,#C0C0C0,"(192,192,192)",Western,honor,funerals
+Yellow,#FFFF00,"(255,255,0)",Spanish,mourning,national symbolism
+Green,#00FF00,"(0,255,0)",Persian,danger,dance costumes
+Yellow,#FFFF00,"(255,255,0)",Egyptian,love,national symbolism
+Silver,#C0C0C0,"(192,192,192)",Italian,peace,seasonal rituals
+Silver,#C0C0C0,"(192,192,192)",Greek,danger,dance costumes
+Black,#000000,"(0,0,0)",Italian,honor,national symbolism
+Gold,#FFD700,"(255,215,0)",Brazilian,rebirth,religious ceremonies
+Gold,#FFD700,"(255,215,0)",Turkish,power,funerals
+Magenta,#FF00FF,"(255,0,255)",Brazilian,mourning,seasonal rituals
+Black,#000000,"(0,0,0)",Spanish,creativity,traditional dress
+Black,#000000,"(0,0,0)",Western,spirituality,dance costumes
+Black,#000000,"(0,0,0)",Russian,creativity,festivals
+Yellow,#FFFF00,"(255,255,0)",Thai,peace,festivals
+Green,#00FF00,"(0,255,0)",French,danger,traditional dress
+Orange,#FFA500,"(255,165,0)",Russian,friendship,seasonal rituals
+Brown,#8B4513,"(139,69,19)",Arabic,love,architecture
+Pink,#FFC0CB,"(255,192,203)",Korean,rebirth,seasonal rituals
+Brown,#8B4513,"(139,69,19)",Korean,power,religious ceremonies
+Red,#FF0000,"(255,0,0)",Arabic,love,religious ceremonies
+Blue,#0000FF,"(0,0,255)",Russian,wealth,funerals
+Yellow,#FFFF00,"(255,255,0)",Brazilian,friendship,funerals
+Magenta,#FF00FF,"(255,0,255)",Japanese,power,festivals
+Purple,#800080,"(128,0,128)",French,mourning,dance costumes
+Blue,#0000FF,"(0,0,255)",Arabic,peace,seasonal rituals
+Gold,#FFD700,"(255,215,0)",Greek,spirituality,funerals
+Orange,#FFA500,"(255,165,0)",Mexican,friendship,architecture
+Green,#00FF00,"(0,255,0)",Persian,harmony,seasonal rituals
+White,#FFFFFF,"(255,255,255)",Thai,love,weddings
+Silver,#C0C0C0,"(192,192,192)",Arabic,celebration,religious ceremonies
+Blue,#0000FF,"(0,0,255)",Indian,luck,architecture
+Yellow,#FFFF00,"(255,255,0)",Western,royalty,national symbolism
+Silver,#C0C0C0,"(192,192,192)",African,prosperity,festivals
+Green,#00FF00,"(0,255,0)",Thai,purity,art
+Pink,#FFC0CB,"(255,192,203)",Indonesian,rebirth,weddings
+Cyan,#00FFFF,"(0,255,255)",Persian,harmony,national symbolism
+Black,#000000,"(0,0,0)",Korean,courage,seasonal rituals
+Purple,#800080,"(128,0,128)",Greek,celebration,art
+Pink,#FFC0CB,"(255,192,203)",Egyptian,spirituality,dance costumes
+Pink,#FFC0CB,"(255,192,203)",Spanish,royalty,national symbolism
+Purple,#800080,"(128,0,128)",German,royalty,art
+Yellow,#FFFF00,"(255,255,0)",Persian,love,architecture
+Red,#FF0000,"(255,0,0)",Turkish,honor,funerals
+Cyan,#00FFFF,"(0,255,255)",Spanish,peace,weddings
+Cyan,#00FFFF,"(0,255,255)",African,creativity,seasonal rituals
+Cyan,#00FFFF,"(0,255,255)",Chinese,prosperity,seasonal rituals
+Cyan,#00FFFF,"(0,255,255)",Japanese,fertility,festivals
+Cyan,#00FFFF,"(0,255,255)",French,purity,dance costumes
+Orange,#FFA500,"(255,165,0)",French,courage,art
+Grey,#808080,"(128,128,128)",Korean,danger,funerals
+Purple,#800080,"(128,0,128)",Thai,honor,national symbolism
+White,#FFFFFF,"(255,255,255)",Persian,peace,national symbolism
+Cyan,#00FFFF,"(0,255,255)",Persian,harmony,religious ceremonies
+Cyan,#00FFFF,"(0,255,255)",French,victory,dance costumes
+Blue,#0000FF,"(0,0,255)",Thai,friendship,weddings
+Orange,#FFA500,"(255,165,0)",Greek,wealth,funerals
+Silver,#C0C0C0,"(192,192,192)",French,royalty,traditional dress
+Pink,#FFC0CB,"(255,192,203)",Arabic,victory,traditional dress
+Black,#000000,"(0,0,0)",Russian,wealth,traditional dress
+Gold,#FFD700,"(255,215,0)",Russian,courage,art
+Gold,#FFD700,"(255,215,0)",Greek,harmony,festivals
+Pink,#FFC0CB,"(255,192,203)",Greek,celebration,festivals
+Green,#00FF00,"(0,255,0)",African,luck,national symbolism
+Pink,#FFC0CB,"(255,192,203)",German,royalty,festivals
+Grey,#808080,"(128,128,128)",Indonesian,royalty,seasonal rituals
+Red,#FF0000,"(255,0,0)",Western,mourning,religious ceremonies
+Grey,#808080,"(128,128,128)",German,victory,funerals
+Red,#FF0000,"(255,0,0)",Turkish,celebration,dance costumes
+Green,#00FF00,"(0,255,0)",Arabic,mourning,art
+Pink,#FFC0CB,"(255,192,203)",African,love,festivals
+Green,#00FF00,"(0,255,0)",Chinese,royalty,funerals
+Green,#00FF00,"(0,255,0)",Japanese,celebration,funerals
+Brown,#8B4513,"(139,69,19)",German,peace,weddings
+Green,#00FF00,"(0,255,0)",Korean,harmony,festivals
+White,#FFFFFF,"(255,255,255)",Western,wealth,traditional dress
+Magenta,#FF00FF,"(255,0,255)",Western,creativity,religious ceremonies
+Brown,#8B4513,"(139,69,19)",Arabic,honor,architecture
+Grey,#808080,"(128,128,128)",Russian,royalty,religious ceremonies
+White,#FFFFFF,"(255,255,255)",French,love,seasonal rituals
+Pink,#FFC0CB,"(255,192,203)",Egyptian,luck,festivals
+Pink,#FFC0CB,"(255,192,203)",Japanese,power,national symbolism
+Magenta,#FF00FF,"(255,0,255)",Russian,love,festivals
+Blue,#0000FF,"(0,0,255)",Spanish,royalty,religious ceremonies
+Cyan,#00FFFF,"(0,255,255)",Mexican,danger,weddings
+Gold,#FFD700,"(255,215,0)",Indonesian,celebration,dance costumes
+Brown,#8B4513,"(139,69,19)",Persian,harmony,architecture
+Pink,#FFC0CB,"(255,192,203)",Indonesian,danger,dance costumes
+Red,#FF0000,"(255,0,0)",Persian,power,seasonal rituals
+Brown,#8B4513,"(139,69,19)",Arabic,friendship,art
+Orange,#FFA500,"(255,165,0)",Persian,royalty,architecture
+Silver,#C0C0C0,"(192,192,192)",Persian,victory,festivals
+Purple,#800080,"(128,0,128)",Turkish,courage,religious ceremonies
+Yellow,#FFFF00,"(255,255,0)",Indian,royalty,seasonal rituals
+Silver,#C0C0C0,"(192,192,192)",Indian,purity,weddings
+Red,#FF0000,"(255,0,0)",Greek,creativity,seasonal rituals
+Yellow,#FFFF00,"(255,255,0)",French,friendship,traditional dress
+Gold,#FFD700,"(255,215,0)",Indian,luck,architecture
+Black,#000000,"(0,0,0)",Italian,creativity,religious ceremonies
+Cyan,#00FFFF,"(0,255,255)",French,peace,architecture
+Red,#FF0000,"(255,0,0)",Spanish,friendship,seasonal rituals
+Yellow,#FFFF00,"(255,255,0)",French,prosperity,national symbolism
+Pink,#FFC0CB,"(255,192,203)",Italian,purity,art
+Green,#00FF00,"(0,255,0)",African,friendship,festivals
+Yellow,#FFFF00,"(255,255,0)",Persian,peace,architecture
+Magenta,#FF00FF,"(255,0,255)",Spanish,mourning,architecture
+Silver,#C0C0C0,"(192,192,192)",Egyptian,creativity,festivals
+Pink,#FFC0CB,"(255,192,203)",Italian,peace,architecture
+Yellow,#FFFF00,"(255,255,0)",Turkish,love,weddings
+Cyan,#00FFFF,"(0,255,255)",Western,danger,religious ceremonies
+Black,#000000,"(0,0,0)",German,harmony,traditional dress
+Grey,#808080,"(128,128,128)",Spanish,power,art
+Red,#FF0000,"(255,0,0)",Greek,love,seasonal rituals
+Black,#000000,"(0,0,0)",Indonesian,friendship,national symbolism
+Purple,#800080,"(128,0,128)",Persian,love,national symbolism
+Yellow,#FFFF00,"(255,255,0)",Russian,royalty,religious ceremonies
+Magenta,#FF00FF,"(255,0,255)",Korean,courage,weddings
+Gold,#FFD700,"(255,215,0)",Arabic,friendship,architecture
+Yellow,#FFFF00,"(255,255,0)",Egyptian,victory,festivals
+Silver,#C0C0C0,"(192,192,192)",Mexican,love,architecture
+Silver,#C0C0C0,"(192,192,192)",Italian,luck,festivals
+Yellow,#FFFF00,"(255,255,0)",Italian,peace,dance costumes
+Orange,#FFA500,"(255,165,0)",Japanese,danger,religious ceremonies
+Blue,#0000FF,"(0,0,255)",German,creativity,art
+White,#FFFFFF,"(255,255,255)",Brazilian,celebration,national symbolism
+Yellow,#FFFF00,"(255,255,0)",Arabic,royalty,weddings
+Purple,#800080,"(128,0,128)",Japanese,honor,architecture
+Blue,#0000FF,"(0,0,255)",Egyptian,purity,festivals
+Grey,#808080,"(128,128,128)",Persian,purity,architecture
+Black,#000000,"(0,0,0)",Thai,victory,dance costumes
+Orange,#FFA500,"(255,165,0)",Thai,royalty,funerals
+Cyan,#00FFFF,"(0,255,255)",Russian,luck,seasonal rituals
+White,#FFFFFF,"(255,255,255)",Egyptian,royalty,architecture
+Magenta,#FF00FF,"(255,0,255)",Arabic,fertility,seasonal rituals
+White,#FFFFFF,"(255,255,255)",Spanish,wealth,traditional dress
+Green,#00FF00,"(0,255,0)",Japanese,honor,religious ceremonies
+Black,#000000,"(0,0,0)",Russian,peace,weddings
+White,#FFFFFF,"(255,255,255)",Arabic,danger,traditional dress
+Silver,#C0C0C0,"(192,192,192)",Indonesian,harmony,national symbolism
+Pink,#FFC0CB,"(255,192,203)",Spanish,courage,architecture
+Cyan,#00FFFF,"(0,255,255)",French,luck,funerals
+Grey,#808080,"(128,128,128)",Japanese,creativity,dance costumes
+Cyan,#00FFFF,"(0,255,255)",Egyptian,fertility,dance costumes
+Silver,#C0C0C0,"(192,192,192)",Korean,power,religious ceremonies
+Blue,#0000FF,"(0,0,255)",African,spirituality,religious ceremonies
+Magenta,#FF00FF,"(255,0,255)",Chinese,love,seasonal rituals
+Grey,#808080,"(128,128,128)",Brazilian,rebirth,traditional dress
+Orange,#FFA500,"(255,165,0)",Mexican,royalty,traditional dress
+Brown,#8B4513,"(139,69,19)",Indonesian,luck,architecture
+Gold,#FFD700,"(255,215,0)",Japanese,prosperity,traditional dress
+Brown,#8B4513,"(139,69,19)",Turkish,wealth,architecture
+Pink,#FFC0CB,"(255,192,203)",German,wealth,national symbolism
+Silver,#C0C0C0,"(192,192,192)",Turkish,prosperity,art
+Silver,#C0C0C0,"(192,192,192)",Arabic,honor,religious ceremonies
+Silver,#C0C0C0,"(192,192,192)",Thai,danger,national symbolism
+Yellow,#FFFF00,"(255,255,0)",Brazilian,luck,seasonal rituals
+Pink,#FFC0CB,"(255,192,203)",Greek,honor,weddings
+Orange,#FFA500,"(255,165,0)",Turkish,power,traditional dress
+White,#FFFFFF,"(255,255,255)",Turkish,fertility,festivals
+Blue,#0000FF,"(0,0,255)",Russian,creativity,religious ceremonies
+Red,#FF0000,"(255,0,0)",Indian,power,religious ceremonies
+Red,#FF0000,"(255,0,0)",Mexican,celebration,dance costumes
+Pink,#FFC0CB,"(255,192,203)",Egyptian,wealth,weddings
+Purple,#800080,"(128,0,128)",Brazilian,harmony,traditional dress
+Silver,#C0C0C0,"(192,192,192)",Korean,spirituality,traditional dress
+Silver,#C0C0C0,"(192,192,192)",Italian,victory,traditional dress
+Blue,#0000FF,"(0,0,255)",Indian,luck,architecture
+Magenta,#FF00FF,"(255,0,255)",Russian,danger,religious ceremonies
+Red,#FF0000,"(255,0,0)",Chinese,honor,religious ceremonies
+Green,#00FF00,"(0,255,0)",Korean,mourning,festivals
+Blue,#0000FF,"(0,0,255)",Persian,celebration,seasonal rituals
+Orange,#FFA500,"(255,165,0)",French,honor,art
+Silver,#C0C0C0,"(192,192,192)",Chinese,danger,weddings
+Black,#000000,"(0,0,0)",Japanese,creativity,art
+Cyan,#00FFFF,"(0,255,255)",Greek,rebirth,religious ceremonies
+Blue,#0000FF,"(0,0,255)",Arabic,honor,traditional dress
+Brown,#8B4513,"(139,69,19)",Arabic,rebirth,dance costumes
+Pink,#FFC0CB,"(255,192,203)",Western,rebirth,art
+Orange,#FFA500,"(255,165,0)",Japanese,courage,seasonal rituals
+Magenta,#FF00FF,"(255,0,255)",Russian,harmony,art
+Grey,#808080,"(128,128,128)",Indian,prosperity,traditional dress
+Yellow,#FFFF00,"(255,255,0)",African,creativity,weddings
+Grey,#808080,"(128,128,128)",Thai,purity,architecture
+Gold,#FFD700,"(255,215,0)",French,friendship,religious ceremonies
+Red,#FF0000,"(255,0,0)",Italian,purity,weddings
+Blue,#0000FF,"(0,0,255)",French,celebration,dance costumes
+Purple,#800080,"(128,0,128)",Spanish,spirituality,traditional dress
+Gold,#FFD700,"(255,215,0)",Chinese,rebirth,art
+Pink,#FFC0CB,"(255,192,203)",Indian,wealth,festivals
+Silver,#C0C0C0,"(192,192,192)",Indonesian,fertility,national symbolism
+Yellow,#FFFF00,"(255,255,0)",Turkish,fertility,architecture
+Orange,#FFA500,"(255,165,0)",Italian,spirituality,national symbolism
+Silver,#C0C0C0,"(192,192,192)",Indonesian,spirituality,traditional dress
+Cyan,#00FFFF,"(0,255,255)",French,celebration,dance costumes
+White,#FFFFFF,"(255,255,255)",Russian,purity,funerals
+Grey,#808080,"(128,128,128)",Mexican,courage,architecture
+Yellow,#FFFF00,"(255,255,0)",African,rebirth,art
+White,#FFFFFF,"(255,255,255)",Brazilian,wealth,seasonal rituals
+Gold,#FFD700,"(255,215,0)",Western,luck,religious ceremonies
+Silver,#C0C0C0,"(192,192,192)",Egyptian,harmony,religious ceremonies
+Black,#000000,"(0,0,0)",Egyptian,honor,weddings
+Magenta,#FF00FF,"(255,0,255)",Brazilian,royalty,funerals
+Magenta,#FF00FF,"(255,0,255)",German,luck,funerals
+Red,#FF0000,"(255,0,0)",Chinese,prosperity,festivals
+Black,#000000,"(0,0,0)",Japanese,prosperity,architecture
+Orange,#FFA500,"(255,165,0)",Indonesian,rebirth,architecture
+Yellow,#FFFF00,"(255,255,0)",Turkish,friendship,art
+Orange,#FFA500,"(255,165,0)",Japanese,spirituality,religious ceremonies
+Silver,#C0C0C0,"(192,192,192)",Indonesian,creativity,funerals
+Blue,#0000FF,"(0,0,255)",French,fertility,dance costumes
+Yellow,#FFFF00,"(255,255,0)",Egyptian,friendship,funerals
+Grey,#808080,"(128,128,128)",German,rebirth,art
+Blue,#0000FF,"(0,0,255)",Mexican,harmony,festivals
+Orange,#FFA500,"(255,165,0)",Turkish,fertility,festivals
+Yellow,#FFFF00,"(255,255,0)",Thai,creativity,architecture
+Gold,#FFD700,"(255,215,0)",Indian,power,festivals
+White,#FFFFFF,"(255,255,255)",Russian,love,art
+Blue,#0000FF,"(0,0,255)",Mexican,purity,national symbolism
+Gold,#FFD700,"(255,215,0)",Chinese,peace,art
+Cyan,#00FFFF,"(0,255,255)",Chinese,spirituality,festivals
+Cyan,#00FFFF,"(0,255,255)",Western,royalty,seasonal rituals
+Gold,#FFD700,"(255,215,0)",Turkish,love,funerals
+Yellow,#FFFF00,"(255,255,0)",Korean,love,festivals
+Green,#00FF00,"(0,255,0)",Greek,love,festivals
+Cyan,#00FFFF,"(0,255,255)",Egyptian,honor,seasonal rituals
+Black,#000000,"(0,0,0)",Indonesian,luck,national symbolism
+Green,#00FF00,"(0,255,0)",French,harmony,dance costumes
+Green,#00FF00,"(0,255,0)",Egyptian,love,art
+Grey,#808080,"(128,128,128)",German,love,national symbolism
+Blue,#0000FF,"(0,0,255)",Egyptian,spirituality,traditional dress
+Red,#FF0000,"(255,0,0)",Italian,royalty,seasonal rituals
+Green,#00FF00,"(0,255,0)",African,purity,festivals
+Gold,#FFD700,"(255,215,0)",Indian,rebirth,architecture
+Red,#FF0000,"(255,0,0)",African,power,weddings
+Brown,#8B4513,"(139,69,19)",Russian,danger,religious ceremonies
+Black,#000000,"(0,0,0)",Indonesian,wealth,weddings
+Pink,#FFC0CB,"(255,192,203)",Brazilian,victory,seasonal rituals
+Cyan,#00FFFF,"(0,255,255)",Mexican,victory,art
+Yellow,#FFFF00,"(255,255,0)",Russian,courage,funerals
+Purple,#800080,"(128,0,128)",Western,danger,weddings
+White,#FFFFFF,"(255,255,255)",Japanese,spirituality,funerals
+Pink,#FFC0CB,"(255,192,203)",French,celebration,art
+Blue,#0000FF,"(0,0,255)",Indonesian,honor,traditional dress
+Grey,#808080,"(128,128,128)",Indonesian,victory,funerals
+White,#FFFFFF,"(255,255,255)",French,spirituality,weddings
+Grey,#808080,"(128,128,128)",Chinese,courage,dance costumes
+Green,#00FF00,"(0,255,0)",Indonesian,purity,religious ceremonies
+Purple,#800080,"(128,0,128)",Thai,danger,religious ceremonies
+Pink,#FFC0CB,"(255,192,203)",French,celebration,national symbolism
+Orange,#FFA500,"(255,165,0)",Mexican,creativity,architecture
+Brown,#8B4513,"(139,69,19)",Turkish,power,traditional dress
+Black,#000000,"(0,0,0)",Thai,rebirth,funerals
+Brown,#8B4513,"(139,69,19)",French,wealth,seasonal rituals
+Black,#000000,"(0,0,0)",Korean,celebration,weddings
+Silver,#C0C0C0,"(192,192,192)",Indonesian,courage,weddings
+Silver,#C0C0C0,"(192,192,192)",Mexican,spirituality,festivals
+Yellow,#FFFF00,"(255,255,0)",Greek,honor,dance costumes
+Black,#000000,"(0,0,0)",German,celebration,national symbolism
+Blue,#0000FF,"(0,0,255)",Turkish,friendship,architecture
+Cyan,#00FFFF,"(0,255,255)",Arabic,wealth,art
+Black,#000000,"(0,0,0)",Russian,royalty,dance costumes
+Yellow,#FFFF00,"(255,255,0)",Korean,prosperity,national symbolism
+Purple,#800080,"(128,0,128)",Turkish,spirituality,national symbolism
+Green,#00FF00,"(0,255,0)",Brazilian,wealth,traditional dress
+White,#FFFFFF,"(255,255,255)",Thai,spirituality,dance costumes
+Blue,#0000FF,"(0,0,255)",Brazilian,peace,funerals
+Cyan,#00FFFF,"(0,255,255)",Japanese,power,art
+Black,#000000,"(0,0,0)",Thai,power,funerals
+Grey,#808080,"(128,128,128)",Greek,purity,traditional dress
+Red,#FF0000,"(255,0,0)",Arabic,spirituality,dance costumes
+Orange,#FFA500,"(255,165,0)",Japanese,victory,weddings
+Pink,#FFC0CB,"(255,192,203)",Turkish,spirituality,religious ceremonies
+Red,#FF0000,"(255,0,0)",Greek,honor,art
+White,#FFFFFF,"(255,255,255)",French,luck,dance costumes
+Brown,#8B4513,"(139,69,19)",Spanish,victory,architecture
+Magenta,#FF00FF,"(255,0,255)",Spanish,spirituality,traditional dress
+Magenta,#FF00FF,"(255,0,255)",Italian,love,dance costumes
+Blue,#0000FF,"(0,0,255)",Turkish,courage,national symbolism
+Brown,#8B4513,"(139,69,19)",Indonesian,celebration,traditional dress
+Green,#00FF00,"(0,255,0)",Thai,love,funerals
+Blue,#0000FF,"(0,0,255)",Russian,harmony,national symbolism
+Magenta,#FF00FF,"(255,0,255)",African,harmony,architecture
+White,#FFFFFF,"(255,255,255)",Persian,love,traditional dress
+Orange,#FFA500,"(255,165,0)",French,victory,national symbolism
+Silver,#C0C0C0,"(192,192,192)",Chinese,rebirth,art
+Gold,#FFD700,"(255,215,0)",French,rebirth,traditional dress
+Orange,#FFA500,"(255,165,0)",Mexican,victory,religious ceremonies
+Grey,#808080,"(128,128,128)",German,rebirth,festivals
+Pink,#FFC0CB,"(255,192,203)",Italian,danger,dance costumes
+Yellow,#FFFF00,"(255,255,0)",Thai,creativity,dance costumes
+Green,#00FF00,"(0,255,0)",Chinese,victory,funerals
+Black,#000000,"(0,0,0)",Russian,wealth,art
+Blue,#0000FF,"(0,0,255)",German,peace,architecture
+Blue,#0000FF,"(0,0,255)",African,fertility,weddings
+Gold,#FFD700,"(255,215,0)",Brazilian,luck,festivals
+Grey,#808080,"(128,128,128)",French,rebirth,festivals
+Green,#00FF00,"(0,255,0)",Italian,royalty,dance costumes
+Gold,#FFD700,"(255,215,0)",Persian,harmony,weddings
+Grey,#808080,"(128,128,128)",German,power,funerals
+Red,#FF0000,"(255,0,0)",Italian,mourning,dance costumes
+Green,#00FF00,"(0,255,0)",German,peace,traditional dress
+Green,#00FF00,"(0,255,0)",Japanese,wealth,religious ceremonies
+Pink,#FFC0CB,"(255,192,203)",Spanish,fertility,traditional dress
+Blue,#0000FF,"(0,0,255)",German,spirituality,seasonal rituals
+Green,#00FF00,"(0,255,0)",Egyptian,courage,dance costumes
+Gold,#FFD700,"(255,215,0)",Russian,creativity,funerals
+Magenta,#FF00FF,"(255,0,255)",Brazilian,spirituality,funerals
+Orange,#FFA500,"(255,165,0)",Indonesian,victory,religious ceremonies
+Red,#FF0000,"(255,0,0)",Spanish,luck,funerals
+Yellow,#FFFF00,"(255,255,0)",Indian,royalty,festivals
+Blue,#0000FF,"(0,0,255)",Thai,power,architecture
+Cyan,#00FFFF,"(0,255,255)",Mexican,purity,festivals
+Cyan,#00FFFF,"(0,255,255)",African,harmony,religious ceremonies
+Blue,#0000FF,"(0,0,255)",Arabic,wealth,traditional dress
+Red,#FF0000,"(255,0,0)",Turkish,royalty,festivals
+Magenta,#FF00FF,"(255,0,255)",Arabic,peace,weddings
+Yellow,#FFFF00,"(255,255,0)",Korean,royalty,seasonal rituals
+Brown,#8B4513,"(139,69,19)",Turkish,love,traditional dress
+Cyan,#00FFFF,"(0,255,255)",Egyptian,peace,seasonal rituals
+Gold,#FFD700,"(255,215,0)",Thai,mourning,art
+Grey,#808080,"(128,128,128)",Mexican,rebirth,funerals
+Red,#FF0000,"(255,0,0)",French,honor,seasonal rituals
+White,#FFFFFF,"(255,255,255)",Chinese,purity,architecture
+Grey,#808080,"(128,128,128)",Indian,danger,funerals
+Yellow,#FFFF00,"(255,255,0)",French,danger,weddings
+Pink,#FFC0CB,"(255,192,203)",Thai,prosperity,architecture
+Purple,#800080,"(128,0,128)",Spanish,fertility,funerals
+Blue,#0000FF,"(0,0,255)",Chinese,royalty,weddings
+Green,#00FF00,"(0,255,0)",Arabic,creativity,dance costumes
+Cyan,#00FFFF,"(0,255,255)",Indian,wealth,traditional dress
+Pink,#FFC0CB,"(255,192,203)",African,prosperity,funerals
+Blue,#0000FF,"(0,0,255)",Indian,fertility,national symbolism
+Orange,#FFA500,"(255,165,0)",Thai,victory,architecture
+Yellow,#FFFF00,"(255,255,0)",Korean,power,weddings
+Green,#00FF00,"(0,255,0)",Japanese,rebirth,dance costumes
+Cyan,#00FFFF,"(0,255,255)",Thai,power,art
+Orange,#FFA500,"(255,165,0)",Mexican,danger,dance costumes
+Orange,#FFA500,"(255,165,0)",Western,luck,religious ceremonies
+Yellow,#FFFF00,"(255,255,0)",Italian,love,religious ceremonies
+Green,#00FF00,"(0,255,0)",Indonesian,creativity,religious ceremonies
+Green,#00FF00,"(0,255,0)",Western,harmony,architecture
+Brown,#8B4513,"(139,69,19)",Japanese,wealth,weddings
+Purple,#800080,"(128,0,128)",Egyptian,rebirth,art
+Black,#000000,"(0,0,0)",French,harmony,weddings
+Cyan,#00FFFF,"(0,255,255)",French,danger,architecture
+Pink,#FFC0CB,"(255,192,203)",Mexican,rebirth,weddings
+Gold,#FFD700,"(255,215,0)",African,danger,religious ceremonies
+Purple,#800080,"(128,0,128)",Thai,peace,festivals
+Cyan,#00FFFF,"(0,255,255)",Indonesian,rebirth,national symbolism
+Orange,#FFA500,"(255,165,0)",Brazilian,rebirth,national symbolism
+Purple,#800080,"(128,0,128)",Indonesian,victory,architecture
+Silver,#C0C0C0,"(192,192,192)",German,mourning,art
+Blue,#0000FF,"(0,0,255)",Turkish,prosperity,dance costumes
+Black,#000000,"(0,0,0)",German,honor,festivals
+Pink,#FFC0CB,"(255,192,203)",African,courage,religious ceremonies
+Blue,#0000FF,"(0,0,255)",Egyptian,peace,religious ceremonies
+White,#FFFFFF,"(255,255,255)",Arabic,peace,dance costumes
+Red,#FF0000,"(255,0,0)",German,rebirth,weddings
+Silver,#C0C0C0,"(192,192,192)",Russian,prosperity,dance costumes
+Brown,#8B4513,"(139,69,19)",Mexican,creativity,funerals
+White,#FFFFFF,"(255,255,255)",Mexican,wealth,weddings
+Brown,#8B4513,"(139,69,19)",Turkish,love,architecture
+Silver,#C0C0C0,"(192,192,192)",Brazilian,friendship,funerals
+Brown,#8B4513,"(139,69,19)",Brazilian,purity,funerals
+Orange,#FFA500,"(255,165,0)",Russian,luck,art
+Cyan,#00FFFF,"(0,255,255)",Brazilian,friendship,traditional dress
+Orange,#FFA500,"(255,165,0)",Brazilian,prosperity,funerals
+Pink,#FFC0CB,"(255,192,203)",Persian,purity,festivals
+Purple,#800080,"(128,0,128)",Greek,mourning,architecture
+Pink,#FFC0CB,"(255,192,203)",Spanish,spirituality,architecture
+Pink,#FFC0CB,"(255,192,203)",Brazilian,love,art
+Brown,#8B4513,"(139,69,19)",Brazilian,courage,weddings
+Grey,#808080,"(128,128,128)",Persian,wealth,seasonal rituals
+Pink,#FFC0CB,"(255,192,203)",Thai,fertility,architecture
+Silver,#C0C0C0,"(192,192,192)",French,honor,traditional dress
+Orange,#FFA500,"(255,165,0)",Chinese,peace,national symbolism
+Silver,#C0C0C0,"(192,192,192)",Spanish,friendship,funerals
+Gold,#FFD700,"(255,215,0)",Brazilian,victory,weddings
+Pink,#FFC0CB,"(255,192,203)",Turkish,spirituality,festivals
+Silver,#C0C0C0,"(192,192,192)",Brazilian,luck,funerals
+White,#FFFFFF,"(255,255,255)",Indian,danger,architecture
+Magenta,#FF00FF,"(255,0,255)",Arabic,peace,festivals
+Purple,#800080,"(128,0,128)",Indonesian,spirituality,national symbolism
+Purple,#800080,"(128,0,128)",Persian,honor,religious ceremonies
+Blue,#0000FF,"(0,0,255)",German,spirituality,festivals
+Magenta,#FF00FF,"(255,0,255)",German,love,architecture
+Grey,#808080,"(128,128,128)",Japanese,wealth,funerals
+Silver,#C0C0C0,"(192,192,192)",Mexican,harmony,traditional dress
+Black,#000000,"(0,0,0)",German,peace,weddings
+Green,#00FF00,"(0,255,0)",African,wealth,national symbolism
+Orange,#FFA500,"(255,165,0)",Egyptian,harmony,religious ceremonies
+Yellow,#FFFF00,"(255,255,0)",Italian,peace,seasonal rituals
+Magenta,#FF00FF,"(255,0,255)",Italian,creativity,religious ceremonies
+Red,#FF0000,"(255,0,0)",Western,peace,festivals
+Silver,#C0C0C0,"(192,192,192)",Japanese,prosperity,religious ceremonies
+White,#FFFFFF,"(255,255,255)",Korean,fertility,architecture
+Silver,#C0C0C0,"(192,192,192)",Greek,purity,architecture
+Grey,#808080,"(128,128,128)",Italian,purity,art
+Magenta,#FF00FF,"(255,0,255)",Mexican,danger,dance costumes
+Yellow,#FFFF00,"(255,255,0)",Greek,purity,traditional dress
+Magenta,#FF00FF,"(255,0,255)",Thai,fertility,dance costumes
+Cyan,#00FFFF,"(0,255,255)",Russian,power,national symbolism
+Orange,#FFA500,"(255,165,0)",Russian,peace,funerals
+White,#FFFFFF,"(255,255,255)",Russian,royalty,funerals
+White,#FFFFFF,"(255,255,255)",Thai,prosperity,religious ceremonies
+White,#FFFFFF,"(255,255,255)",Brazilian,fertility,funerals
+Brown,#8B4513,"(139,69,19)",Indonesian,harmony,dance costumes
+Green,#00FF00,"(0,255,0)",French,power,dance costumes
